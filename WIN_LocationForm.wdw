@@ -1,0 +1,199 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_LocationForm
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_LocationForm
+ identifier : 0x26f2751a2a4cfb01
+ internal_properties : CAAAAAgAAADbmzKnm82D/3MV/XPJpFp7aDBaIh/qofAwCAX7ZUikaySkvNN9KCxXznCJ9yVPNOrn7bddVUG3GdYLyYs68QaPZu8EHW7aKIv8p/bgPd4ADujUONjk9raTtn+zho0NY7XTsrArj4qC9PciuDSquUfkT3dLzdJxJi1AQyJ5b2LaI/qyvS8uUAFGlhy4PPptOsrO5y/T/4OaY2PoyxQFBV+B7SCtAsxqFsONywKCIhk1KcKKs2CTUdpVogsIDMCjlmqtsNyF875IFzCkGjulCjJ7uMUHJaAQbRV/vEHX/nvdFr1XxTkFTqnPxs5CxBU4FdcnsQ1SQ7LQhJwI6pqwiEMMkNjHtmvhSGCjEfXI7rqpYE/FO4AS8X2htgMRGJoqURIkhUe78Z4gLnl8uxozQd0Tj3bAkLPt6bYM63exbgLztC619/d+PFA//OScNWc7Qlemy0VynfKWHB12vIcFJDWHvX5Svq7zuXK9kKLXcSRHi0DvuG+rxzoEi+avOq1uNy8/9eLb0YqETDgT1t9enzZ/mQTje/KlWjYYf8pLYG/3BI9c8cN0PQaTYJC7J4mKc4xmx9sA4ItpUxLN5b6bogx/kBdzCTZYRAm2OZTXi+R8yeWmV08RYjIH5+DOO/H5lC2hJ6SxPRS5TCDTGYn9M0ICc+4n3E2rez5foaewTglSCYr5XZa/dWnHBmc+aW5XBrRnqMB+3tzn162htaCvCuq4tJEeCMpsUmc7jhTtYYUSS+2yhgig9bs9M5bjVkwjqu9esGdjTigxgJ+jPIDSuAC7z1CjN2N6828I32nXALzZqmC7q1uxR8V+MCN3NQ+eOA4xzFA=
+ properties :
+  x : 120
+  y : 50
+  width : 398
+  height : 74
+  widthClient : 396
+  heightClient : 42
+  widthMin : -4
+  heightMin : 0
+ controls :
+  -
+    name : EDT_LocationCaption
+    identifier : 0x26f2751a2a4dfb01
+    internal_properties : CAAAAAgAAAACZP6Gt3X8qOoFlVtvqHFU+euYKnO9O7HK8sKWOJOEAVQTwepXUZM3Sv3TmPyJR4FXuUdn+6onzlOaXsxX076kpcYf5wKIOm/Jbs8dFPibXspu0bweJh3EaS6sITAHrpUAm6CfkLsLoEdXHFk1gWjtPRlNF4iScRDKRR4X/CF13xQAlpFjDgO9hok7Mmdkee9WA7bLxMjdVf+Pq0cvNxKcTb9NNosol/QJCjfOi0VwAUCEInG+d5N530zko7L52neqtWt2+Sm+wJH2fvAK43wTdzD9trMcxXrN2dzPChbZvGJQWZFmaI+185rNXtmpfFRl71GPYvH3Ic1Hc7rlwcP7XAogowmnR8thpe3mwYKbJn05NnRVYL6QVyoMfKrQg2drvSXZtQ7wvpCVrs6plax/C5KCnTLRknMAST/SPhKJzohwLL/YuBG3PJemqnqO6uA2juSYPhiPj/UrDt05v3Lh2+VetOsbdKpbBTNrPQvj11ivAyjpAzg/ItVikENA5dpqxUfBi+vPLa60MTsq+Tde/EehHMKAiXe2T6pdBWicjdeR6lsVciLOcN0UYZvEcPyLEOJSxrWmZm193QUViiccx6Tv6TfwIfULc2wY42PriXhwpTQesCFENj4XStHQrMry12mOp1IZnw/LJn5JTlVR0M7I4iZ+OH0CqzHoHH989wp5f4xmS9QuX4lHKo1b1usY0zDTusdYN5N1towAIaq3XAidO7HhGRh+QtwZk0N+DoZ+lMkayqv89qliPMuH1Ajmqr6tHrfy0KKbdS3e+eSDIx/wRaP8LnkBtIPgLVicGELRzvR6IuHbPLm42zp9sPDj/vO7mtAMQKeb8ARDZDq1o0OrCSijiSaY6ZkfZH5KZpG5jDWBYbljfOBTp07dA+YRAUDUDjKykwHbVCSQ5t0eZTI+NCILUAsCSpiq4LAOI1wzu5OlSNTTzdEQUtdAGOI6ejKgyBDyWRkoWAdSNzT/jNtLuPZk51bzC1n3SaQrnbePantb9sJH1v4835YkKP9SH3HlQA8UQa6invU7uhgfp4TDXC53R4WMXlA4dvIckQH/bEI3XH6qW7/TFQ9YCvk67IYbFkUUIjfLV1oyRGllpbTXVkeoJMdtIK1aF2yQ98L9h+V2ufb5rVZE3AamzWP1iJIXu4ADbn9TgOwnp2KLDztbEEZZVF8xQ5ZGmEVAkpo8USwNQ6WNLQbF7u6p917GKzzDvo2IZzmSJrUOhjjObdYoJs4SNCMdULfxrp6gq2DWpPM8BOyr1aRIylM5u5bRd0RaDvpp5G6IG9yAQKxOvixH+UlHz536CBxMgGK8TAyGjGWhgAwpZumvSgXAjp1L3Eb7x0pcWAzaqpZctSOxy1oKbyZYxUXhgSUVmZ7kA4h5gmBqCvuPRa/FwqFw3C2GwmdFX8pID5KW6f2n/QMfN/M=
+    properties :
+     x : 6
+     y : 6
+     width : 212
+     height : 32
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_VALIDATE
+    identifier : 0x26f2751a2a4efb01
+    internal_properties : CAAAAAgAAABUdVh9K43dL3jsleAHpj0E0GXCcGV8iWnj0IbYvrw1z3UmLnuKU8lkR35wswkfiBFrU6NSplCR9u1cGCaFYm1xTnKluNkD8jmjpUygtxQOoS1cGDK3NGRCF42A8f1N26OFKPUioZcqVnqUl5DhrLpAoDBI+bJ/bIE0qkN0DKqHhZpjwpgFumiq1jwZqFcRpShmuVZfnQpg9fHb9UJW3aNGLGfB1sSaJD3JSEA2Fs55MpTGfVTi8O+3kK1MIpmEkuRN16ykSNTw+l/vW5juJLPbhY2RJZff+wr+raAgcLil7iaDuotDJ5tbMOk+V575EqS88qHmXNDtUxGNnz96pJlclI4tjtlfAkJAZFhJUwfY88/2IygoAw7Jdu1VuLJhwhNyU0w2lp1t2MYfHTdA2BDjfQJ0jVEcLfpps3Df2Ze0P8pazZf0HIbUFKKnMcD7Tnjf7VjFmT0sy5iYgytxQfp/5ZzGCm+v5CvUUV3KriY4S0p3p2ixPuvisCQqgB2PjDrbkqQnHQZi1WehPOJkncfhOLsbd/SkCqKXfyX5xyuYoPtSm35Oh7SWH4J4A01YIQ/PzeSrGcg0Aa7BjUO94BtJWHtIBkSwt4s1jVAHHbI/ViGos7ZKcvez4Ye346ATg/EOgnXs4oJ9+XpzGz8kFFpM/tWhVuIm+sn96M4Znt67jlcScaq+d/iIqV2g7GhgduvAz/zIPxAicEWXCsAGv7TYctatY+QZkbX2MAGR31EHIrW08dZ1W4J3U4UrGUNDYfhSDmc0wbqTvOoj0Nx54x+TL4gJkwZ275tlcsuhRzAZozpV4k+leR02zI3TlbbaKOx9r1OcuBJtb5bf5ew8MIFHMPVPAOjct4bK6og4Ghu+jkMKf/JSvLUgnTaWqcHZsfZ838gbQQ4HfI1Ef13UZi6AatDjohv+ftxaw7Zy9uIgvHPa7CX37eAZOCDg5QU7TKaz3zKg7eUFDcLxIVV1IT0kvyxZLg==
+    properties :
+     x : 224
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Validate the form
+         IF EDT_LocationCaption~="" THEN
+         	Error(<§$0001§>)
+         	ReturnToCapture(EDT_LocationCaption)
+         END
+         
+         // Transfer the controls to the items
+         ScreenToFile				
+         
+         // Saving 
+         SWITCH CallMode
+           CASE CREATION_MODE
+         	// Addition of the form
+         	HAdd(LOCATION)
+           CASE MODIFICATION_MODE
+           	// Modification
+         	HModify(LOCATION)			
+           OTHER CASE
+         	Error(<§$0002§>+CallMode)
+         	RETURN
+         END
+         
+         MyWindow..ReturnedValue = LOCATION.LOCATIONID // Signals validated input
+         Close()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CANCEL
+    identifier : 0x26f2751a2a4ffb01
+    internal_properties : CAAAAAgAAABTpQPm8VyjmimfvkWCfwEMsdIP8cpX62U9+VW0Ae3xxamNIeIgLNYA9s94Xahc3CrHAVc9laacbej9W636Gn1296LGPqel3ABu6NeE4PGtVD4oihkeVgD9hQWv2fZMwhA/oNpPbEiQNV//L4DiAx/n02zf4vGi4Oqdl6gDhnfY0Am0qwVQYvRJuHa4IElurdFyqzjSdRbVxsT/J1dDsdMdPbIRTPxc2m2ZKfGKl2iuTAtW3gw/H4QRT8ICjPTCWQOa1DzOpzJVYqk6qK7oUXVOm+Kt8J5rbZqVMa7kpcJF0OvvysfIVQz4kIbxNZ7LQLBo8qmk0Uv/9dgEZWMjXpHGJXGjU8hPJ9yF80t16BmiouSL7XE04vFDGWWowhYguUg+ubiEIVjKlQQ2n6sU16avw5qtolN671otbLFvGAYr2L7pOt0OjZ2JnjB4J8Wb1VTvZNqunVj5cbB8logcsez3+KiEp2AOHKz3yPTDOEoYkjp8thWSlGQ7EPmwBEwvBKsXnoPGNnhnv7yCbszMfvhePANuXqAzzrfEYOAgllC4WBapJ4RYQxW5sJ6LxIdKc+Im1aTnbm1QeUpiT6+9Eh1YBTgxtNv1Iz4oCAq6GDjYV//5bY6bKznSaxT7W4229Tcj+537W2IypbhULO7CCZKmCN4AzleUEgGdVAehJIIHA8p32v+PcK8Gi3WEwSNYlSWIfoSLvMbBpxxWoPkVNXK83lfenas46Qx/CZj6hYDMfpwNCvt2Ug56VYDuLNHY3YWbNQXmmVDxk18P2upfBDRqh6pTU0fk1qucPLf+pVOAl8ECKyt9dIzgOTF6jXPHZPknOuUYEOOhwov0k1cLF4ojh6haQYKdKvMK4z6o4P0+6XP4Ro0hKLKJmKIKTbuImJmaxc3PoTDPM25yLO1i2UKlAz8UhOcZem/JkayqGgQHIgLY9n7Mu0nvqtZNtRYY8Ozvbm+3Yy9l713z2owo
+    properties :
+     x : 310
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         MyWindow..ReturnedValue = 0 //Signals that the input is canceled
+         Close()							
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2885f0b377136636
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAvUiXDNc1jdLLMZI3eV8QhuuHAldKtxIzEDYA9BL/HtS+pkUzU9hJUJ2NUeCZray+tavbGuDaeXgxqlq/F6I+oXdkRO1S96k6nlwN9d0lTWPEavdWBV/BXWxnim76pBBc=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABrXh/a9ywY0ddNGLkCa60lfdkGIvI57Uw8ekfS368HRhsQ6sdAQaFLfkJJJQ8LzK1+d+QLr1gYWgMGXidj+4wpIxoM0sE5B7gHKfhJbbeR3k2RhKlvM5mHB7CInADf94Xu7Yp6yU9RumH9NEooyodgh1j+4zEAbVK5v15RhTab3paQJ5JdY5xhAFPK5lK75g+IBSpSzMYIKQ0VnzzRHkKzkHEd1vPqPhoLu3rp4fsxjgynQ/q/Mpu7BmKJ1uS3CDJx8h4nlACAOmeWr+yOYstaSDbBB31QWw7KlIMGbg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      PROCEDURE WIN_LocationForm(CallMode=CREATION_MODE)
+      
+      // Default return value
+      MyWindow..ReturnedValue = 0
+   -
+     code : |1-
+      
+      SWITCH CallMode
+      	CASE CREATION_MODE
+      		Reset		   // Initializes the controls
+      		HReset(LOCATION) // Initializes the items
+      		
+      	CASE MODIFICATION_MODE
+      		FileToScreen()  // Displays the items
+      	OTHER CASE
+      		Error(<§$0000§>+CallMode)
+      		Close
+      END
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b24cfe623e8bf94
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : "Invalid window call mode: "
+     index : 0
+   -
+     text :
+      en-GB : Enter the location or cancel.
+     index : 1
+   -
+     text :
+      en-GB : "Mode incorrect: "
+     index : 2
+   -
+     text :
+      en-GB : This location already exists!
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

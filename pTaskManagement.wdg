@@ -1,0 +1,104 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pTaskManagement
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x16f2751f039b0f15
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAdC5DaGsntqmfkq1J4p6eipmeEO//QiIdypV0FB6KY+wiPKnW2KoJpaKmeXvb1NGpH4KGGthHXu/V4LqeilI4jnJwO5Q==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : bTaskDelete
+     procedure_id : 1653512789263388437
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a task
+      // Syntax:
+      //[ <Result> = ] bTaskDelete (<taskOrganizer> is Appointment)
+      //
+      // Parameters:
+      //	taskOrganizer (Appointment): Appointment object
+      // Return value:
+      // 	boolean: // True if OK, False otherwise
+      //
+      PROCEDURE bTaskDelete(taskOrganizer is an Appointment)
+      
+      // Positions
+      HReadSeekFirst(TASK,TASKID,taskOrganizer..Note)
+      dbgAssert(HFound(TASK),"Task not found")
+      
+      IF HFound(TASK) THEN
+      	HDelete(TASK)
+      	RESULT True
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : bTaskModify
+     procedure_id : 1653512789263453973
+     type_code : 15
+     code : |1+
+      // Summary: Modifies a task
+      // Syntax:
+      //bTaskModify (<taskOrganizer> is Appointment)
+      //
+      // Parameters:
+      //	taskOrganizer (Appointment): Appointment object
+      // Return value:
+      // 	None
+      //
+      PROCEDURE bTaskModify(taskOrganizer is an Appointment)
+      
+      // Variable
+      nPersonID is int
+      sResource  is string
+      
+      // Positions
+      HReadSeekFirst(TASK,TASKID,taskOrganizer..Note)
+      
+      // Extracts the Resource identifier
+      IF StringCount(taskOrganizer.Resource,ESC) > 0 THEN
+      	sResource = ExtractString(taskOrganizer.Resource,2,ESC)
+      	nPersonID = Val(sResource[[2 TO]])
+      ELSE
+      	nPersonID = taskOrganizer.Resource
+      END
+      
+      IF HFound(TASK) THEN
+      	TASK.TASKCONTENT = taskOrganizer.Content
+      	TASK.STARTDATE    = taskOrganizer.StartDate
+      	TASK.ENDDATE      = taskOrganizer.EndDate
+      	TASK.PERSONID   = nPersonID
+      	TASK.STCTASK     = taskOrganizer.Title
+      	HModify(TASK)
+      ELSE
+      	TASK.TASKCONTENT = taskOrganizer.Content
+      	TASK.STARTDATE    = taskOrganizer.StartDate
+      	TASK.ENDDATE      = taskOrganizer.EndDate
+      	TASK.PERSONID   = nPersonID
+      	TASK.STCTASK     = taskOrganizer.Title
+      	HAdd(TASK)
+      	taskOrganizer..Note = TASK.TASKID
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_ProcéduresGlobales1
+resources :
+ string_res :
+  identifier : 0x1cc045e801ecb544
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

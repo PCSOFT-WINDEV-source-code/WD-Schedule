@@ -1,0 +1,304 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Schedule
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Schedule
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Schedule
+    internal_properties : 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
+    configuration_id : 5179876007858021568
+    type : 1
+    generation_name : WD Schedule.exe
+    version :
+     version : 14.00Ad
+     internal_generation_version : 2
+    icon_filename : .\Organizer.ico
+    language : 2
+ elements :
+  identifier : 0x4ac603d70037ec38
+  elements :
+   -
+     name : WIN_LegendList
+     identifier : 0x3daa86155b70f8e6
+     internal_properties : CAAAAAgAAAAtKQUZppObRGlSGdyerVkskbzo+AitepJK7f6RMwiKRvJ+YNtG+iNvOubQKOgY4NA4OA==
+     physical_name : .\WIN_LegendList.wdw
+     type : 2
+   -
+     name : WIN_ScheduleTypeForm
+     identifier : 0x3daa861012a9f8e6
+     internal_properties : CAAAAAgAAAAPC2e7iDV9rre8dy6IuGcm/6z60gBVlrWX9evkTP+fWeNtWdJc7BFd1EC6Bo5CPrIaGg==
+     physical_name : .\WIN_ScheduleTypeForm.wdw
+     type : 2
+   -
+     name : WIN_TaskForm
+     identifier : 0x3daa861407a9f8e6
+     internal_properties : CAAAAAgAAACf+/erGEXt/kdMB96YqVcWy5rCCu7joDaG3TZR9yT2MtpaSONM/CFtJBCKdj6yTkKKig==
+     physical_name : .\WIN_TaskForm.wdw
+     type : 2
+   -
+     name : WIN_TaskImportGoogle
+     identifier : 0x4921337500008929
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2fzVkEtlmHZNDkPt3fVBIwyOOzYFHvuRR/0R87h/gaz2vXljXSXbpxnjYw==
+     physical_name : .\WIN_TaskImportGoogle.wdw
+     type : 2
+   -
+     name : QRY_ScheduleRequest
+     identifier : 0x3daa86014ddef8e6
+     internal_properties : CAAAAAgAAADrZ9M39LH5Ijvgq8Ls4PvK8+CuxndfIidOD/K7p++neYtFgTr4CDUBiLQuigrGsibudg==
+     physical_name : .\QRY_ScheduleRequest.WDR
+     type : 5
+   -
+     name : WIN_TaskTypeForm
+     identifier : 0x3daa860f488cf8e6
+     internal_properties : CAAAAAgAAACC+PouncpifdDJhF8ZPs6VAhM5MTcvrX2UQ9ZXetG7DT/3zW7LfaDqoZ0H8bEvyz2Hjw==
+     physical_name : .\WIN_TaskTypeForm.wdw
+     type : 2
+   -
+     name : WIN_LocationForm
+     identifier : 0x3daa86042266f8e6
+     internal_properties : CAAAAAgAAADsasTQ75ScTxYLwhlLQSRXQNNv928EuMWNangXk6h0vHi2Dp2Zr96oY9/ZJ+/hmQ/5eQ==
+     physical_name : .\WIN_LocationForm.wdw
+     type : 2
+   -
+     name : WIN_PersonForm
+     identifier : 0x3daa86050923f8e6
+     internal_properties : CAAAAAgAAADIRjDs24Cos4q/di2PhmgTgJ2vNylueQhTKN/oOuGzfbt3SdJV6xJc10O9O/v1jQPNVQ==
+     physical_name : .\WIN_PersonForm.wdw
+     type : 2
+   -
+     name : WIN_BankHolidayForm
+     identifier : 0x3daa86032174f8e6
+     internal_properties : CAAAAAgAAAAnIw8TkM1lBi8Ez2ZQeC9OR+SC2ghtHvXwtivkPP+faYO9CZKUtNmlbKgS7rYq1soyMg==
+     physical_name : .\WIN_BankHolidayForm.wdw
+     type : 2
+   -
+     name : WIN_GroupList
+     identifier : 0x3daa860b2441f8e6
+     internal_properties : CAAAAAgAAAD1Ud3B/lvTjFFKASSWsEEMXX4YWII3Q33RON/wpIcPETfFPe5O8htnIh6YYCDQqBjgYA==
+     physical_name : .\WIN_GroupList.wdw
+     type : 2
+   -
+     name : pTaskManagement
+     identifier : 0x4cc045eb0327c0d8
+     internal_properties : CAAAAAgAAAAkIgwol8xkBy4T2hFTfhx3VPGD2/52VE+nvhY3GwGLjbO/IZqRt+awe6cR77cp0ccxMQ==
+     physical_name : .\pTaskManagement.wdg
+     type : 7
+   -
+     name : QRY_ListTaskByDate
+     identifier : 0x49214c560001b860
+     internal_properties : CAAAAAgAAAB+5FZKeSaOoaRtOHN9mfKhKknhOYB4rH5KqLuyTlg83HymYslnmcSOBTGrFZ1TL6Fr6w==
+     physical_name : .\QRY_ListTaskByDate.WDR
+     type : 5
+   -
+     name : WIN_Main
+     identifier : 0x3daa86133b94f8e6
+     internal_properties : CAAAAAgAAACb90NHZCGJkquQW5Lc+QuqP07mPiJvmwDdWuU571w22nqaaDMIOGUx+CSeGppWIpZ+hg==
+     physical_name : .\WIN_Main.wdw
+     type : 2
+   -
+     name : RPT_SCHEDULE
+     identifier : 0x46f2750c036fc4ce
+     internal_properties : CAAAAAgAAACPi+c7CLX9LjtrVJP9JI5Wudjw6H/FvKx2aeyMyFa8vFzkxHAM94UQWMA6hg7CvjKamg==
+     physical_name : .\RPT_SCHEDULE.wde
+     type : 3
+   -
+     name : WIN_PersonList
+     identifier : 0x3daa86083890f8e6
+     internal_properties : CAAAAAgAAACwjug086gAGzIX3hWntsDr+IVHz6GWwui3zC9YWtFDnatXqQI9w+q0f7slkxPNtSuVnQ==
+     physical_name : .\WIN_PersonList.wdw
+     type : 2
+   -
+     name : WIN_LocationList
+     identifier : 0x3daa860952c3f8e6
+     internal_properties : CAAAAAgAAAD6UCJmRQIqNQgx/LcBEnaVCruBCW/sCR7saYdARhWHYesL2VLjZYjSWcU/uXl3A/XfZw==
+     physical_name : .\WIN_LocationList.wdw
+     type : 2
+   -
+     name : WIN_BankHolidayList
+     identifier : 0x3daa86062c20f8e6
+     internal_properties : CAAAAAgAAACPi+c7CLX9Ljc8964ICtOSDxhaqkxBW8a+EdH+WsFVq0H/x2TcbJHdVMA6hg7CvjKamg==
+     physical_name : .\WIN_BankHolidayList.wdw
+     type : 2
+   -
+     name : WIN_GroupForm
+     identifier : 0x3daa860741bff8e6
+     internal_properties : CAAAAAgAAACNieU5hvO75Mnyufz+EemkMazoGOiFWZKYuRKFDyzmOs4C3E/mGkMPmoZwSMg4wDCYmA==
+     physical_name : .\WIN_GroupForm.wdw
+     type : 2
+   -
+     name : WIN_PeriodSelection
+     identifier : 0x4ed8b6710053d195
+     internal_properties : CAAAAAgAAAAwDmi0cyiAm7KXXpUnO0RffFPb0/pQvDuK1GhWbKLq3i6AJIe9Q2o0/zulE5NNNasVHQ==
+     physical_name : .\WIN_PeriodSelection.wdw
+     type : 2
+   -
+     name : IW_WINDEVViewAPT
+     identifier : 0x428b97ad017b4a64
+     internal_properties : CAAAAAgAAADXsz9jQD11dt/0QMobcITgHWhUtIug1TFWLb7ZNuyuSrYaRAZi55YVnJgC/oZ6BvrCQg==
+     physical_name : .\IW_WinDevViewAPT.wdw
+     type : 8
+   -
+     name : WIN_SelectPeriod_iCalendar
+     identifier : 0x464b3ffd00c48698
+     internal_properties : CAAAAAgAAAC9mZWJNmNLVG2qsviQ1+A01UCMfEcQalqCPk7x3khClqpmLGpvUdxbTvbg2FiIcGCoqA==
+     physical_name : .\WIN_SelectPeriod_iCalendar.wdw
+     type : 2
+   -
+     name : WIN_SelectPersoniCalendar
+     identifier : 0x464b3dbf00abc542
+     internal_properties : CAAAAAgAAACW/P4igf62uQC9l4mDiRRb3l8V3f63kYaKfAV48TVfsUPzT+bEBMtCYdnDPcU7xzmDgw==
+     physical_name : .\WIN_SelectPersoniCalendar.wdw
+     type : 2
+   -
+     name : WinDevMessageBox
+     identifier : 0x464df39400669ada
+     internal_properties : CAAAAAgAAABVJ4OPSHUjDuICog9PrA9Mx/LOHAM9twHmRGi8ZOxFLkjuiJly99nIoqobpI9r1D/Q
+     physical_name : .\WinDevMessageBox.WDW
+     type : 2
+   -
+     name : WinDevDialogBox
+     identifier : 0x464df394006a9c03
+     internal_properties : CAAAAAgAAAC5mxfzzPmJeo4YU87e8Pm6XY6iDOJPYtk3/4b+2X3M56uhe4ZcWkHeoCyHMBP3QKu8
+     physical_name : .\WinDevDialogBox.WDW
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  analysis : .\WD Schedule.ana\WD Schedule.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAABvAL80U84Ulz2vv1SnNFbWUDkpL7DhJmJa4uOybjNga43NZUBHriuMf2+GkDRMdn6jLXC7pBlV4iPJA8paTakTbmPwVg4x5G0H
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+      // Constant values
+      CONSTANT	
+      	CREATION_MODE     = 1
+      	MODIFICATION_MODE = 2
+      END
+      
+      STPeriod is Structure
+      	dPeriodStartDate is date
+      	dPeriodEndDate is date
+      	
+      END
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Schedule
+     identifier : 0x4ac603d70050ecb5
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Groups
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_GroupForm
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_GroupList
+          explorer_type : element
+          type : 2
+     -
+       name : Tasks
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_TaskForm
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_TaskImportGoogle
+          explorer_type : element
+          type : 2
+     -
+       name : Bank holiday
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_BankHolidayForm
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_BankHolidayList
+          explorer_type : element
+          type : 2
+     -
+       name : Location
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_LocationForm
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_LocationList
+          explorer_type : element
+          type : 2
+     -
+       name : Person
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_PersonForm
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_PersonList
+          explorer_type : element
+          type : 2
+     -
+       name : ImportExport_iCalendar
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_SelectPersoniCalendar
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_SelectPeriod_iCalendar
+          explorer_type : element
+          type : 2
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

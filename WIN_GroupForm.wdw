@@ -1,0 +1,200 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_GroupForm
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_GroupForm
+ identifier : 0x26f275142857e508
+ internal_properties : CAAAAAgAAADgfJQkl0+hllnJOzxNibuxGxeqIXyzJo3TusBXcgShhCgJ0i6X73dPfFttcTHiy4uK0BAFqGXDG2EZ8r85WCa2BFdYh2fpCEbp0wHDf7y6uiXMHeWxBxG0bIiUKZrZX66z/4XYl/t7wpnjJHycXs0gqcLc1WJv5lbauf8WzwdIFNV9R/yjN0Zgo7RiZIrWqbMdbufvAg5ApJ6kXedEBDXXzswhe7LifrGAblSZoJTakI6cxjdSRumA05bK+mVXRuxGPcMfw43V2xeP71aCQiNk6xkF4gSdPf70ZOlbvsf/X9Tuu+cv0Md7O8j/3JWMuzhpW0fr3rDNdzuy2tHSbVcnOz3nsfxyQeIZZvAmxFBhNCH0Mt/NGzhnvzHAuS/B7iaoWgVsYviFGYhm1HYTichayHhPFzqKkWabM94LcTeEfZEOS3vL9V9PluaB00pu8UyVcLuANAdhFlEKzVM4lYqWCnWStG3errZTbvdBAhn49EOg9sPyiPF4RT5ESvb7UA4sfHgdwt3RpjCFpzN7ztFkFJ09m4uI/5rCuemJ+aCU7QYxhdk1HOf0Myvnzq+ChFs/WkWwje6etzxXfhgmO8V8TehXqARQ+iyKId4Izrxc5nrVo1Hmacv/c+sGZHQWpzNznU/tOD9OZta2ritXAYBZQlupBE6h8+3aFl+oMqVOlXyVMOUi0prNNj4JrlJjPWt8AEmxQ4D6J+6KqjIabhLEuVg5fZRZTyvF+6LiyJ9ptaf+84tpiW3PJXfK5rrJDU5n/QYxuXn7Ym+JeVsff7utDy+ubXminYR1Y3sH0+b8EtzQtcx9Gu2Op8qrmfk=
+ properties :
+  x : 120
+  y : 50
+  width : 405
+  height : 74
+  widthClient : 403
+  heightClient : 42
+  widthMin : -4
+  heightMin : 0
+ controls :
+  -
+    name : BTN_VALIDATE
+    identifier : 0x26f275142858e508
+    internal_properties : CAAAAAgAAADB8PY4r8VWQx7tlBRkBJFvmJzxGcbw2I2N2Xuzt9IHZ87i3bOJwvKe65n2ZBWmNvrykMi4Xi95L8eoGmgc4peEOJIfdyZ7sYuxj9nd7HTePUiXef7A4hjU1nWS2OBMQ4M62ynXwtYRboblDUr3GwndxDUKRFbgG4xFUp98eAxKbxYF5ej3ECpZbjqvjxsWdeVRNATP9QzX/y6YJrtM7JYexC2pWQiuMbipcj96g2+HQgrL1dqYT/69mpmRrSiZCOs0/ZidPtaTTryBKVPNsr6yHcGuNcruVu9k/hAxPdZO5U/j2t74EsDRJPRE3v03So2FMbyZSB262d76TIBoygO0Is2Dv1pHKd1gLLzrh9RJ/12LRlEQXZaHOKJfP6C3soP9RYF/nmx2AkSWqSso8V9971ujGqFznDv8NVt9SXA8K1XIcwJkMRkK6gOSVsmabFWzn5ce1HwWyLA5yi0b75cHDkvCw/9oNglPqCIDvYzs7YJj+U5h9aX0hOgpixWzwCH/pyerfP5yvUXuHrBXjQcp4IOoJS9LBDX22DBpi/dHjiYNJABicTzI5xdyUp4r0LDSjA+efmdNaP39XhPtOEd9ydaWjHt7BZaU9GMfpCpvsd3uoTz9SmSZKjHm2t6vh6hpyKkZDOUAOE2G3R6ldrW2uyjHs0PSoTue3xtAUXcBVz2s3RpBHf632EJl0M/u+5LPi1ghfXXYOrMLf+o6EKNNMKf9wyzN7OxR2WGxGnL4OpqvnyVcTGTR5xREi75MyU70aExmpdlZu3CJU6h77jEluxfHAEn93Jz488rBD5BcldxV4kUxQ91cq7S9fytQNtlrVsCKkuQ8oqSKRsAD7i6JffVmWZEsY3mCiNOuvikTs2a7XhG2ENM+4n/6NHg+nd1il4tmVoQgyJ11a1XrvrhlWW4jO23+J65+VM/fl2qEM8DKExf41/i1y2UfptI=
+    properties :
+     x : 231
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Validate the form
+         IF EDT_GroupCaption~="" THEN
+         	Error(<§$0000§>)
+         	ReturnToCapture(EDT_GroupCaption)
+         END
+         
+         // Transfer the controls to the items
+         ScreenToFile()				
+         
+         // Saving 
+         SWITCH CallMode
+           CASE CREATION_MODE
+         	// Addition of the form
+         	HAdd(GROUPS)
+           CASE MODIFICATION_MODE
+         	// Modification
+         	HModify(GROUPS)			
+           OTHER CASE
+         	Error(<§$0002§>+CallMode)
+         	RETURN
+         END
+         
+         // Modifications have been made
+         MyWindow..ReturnedValue = GROUPS.GROUPID
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_CANCEL
+    identifier : 0x26f275142859e508
+    internal_properties : CAAAAAgAAACEtPfX4S1LGTCkLBOwSQT8rh8hE7d2KQ85bVTm/6h2OzISy1xu0PuNices0/cXyjIUz1wuOwX+ZPDdpmttjKebG6ItaxvwUmfSv9rdCu7f1ZSQDsmJFnxVFjHzGTD9i/HehnfNM82twgE+8FYRfxL8dL2KUZ/IG+YqFt3otVnhcDBVs5Tey1t/gTot1yRyyzHmOSy/QakK6RktS56eeCQnZE0j9lY4UCLCRTVGx83ZYmGG98l3KvkE+yzZ9YZOyCZiwjdf7MqESaAARKMZYIZmea46DCNoocPpA0foQk4TJenBXeUPfjMTZAsAlETiFSnXGF7/GEc6mQF3qWbfMRPKPN1zxg7A4JBLKH7gZ6oZjplvYNgoCA53wG4FIXYF9pDl3cTA18tlKn0NE33eZ4e0n/1y+0Ox8+dz1m1eOtpKHegHPaO+rYJlESXJihhu1Bzly/MFETSEvvWj0+g1NaQHz+ilkCTSxN/FXMIXnWpcPoGQHqwB0wNZrx2gy6XIoS5DnaxvcdsyW/rcVk0sVI10+XXX1Fe02X1SY6Fmz7UBovxjst4a2O7tIuwF9FSatjPSI/nAYHTgYja+if0jVdPulOkPFwgzmA7HnHUQKV777uxx7ywWGogUaG6HKDzPMh7K318L04cgVOlAAg/5kDu/xL/T7b/BpuutDED/ouuiDvs+LxG5f7Khaw3rW4CEByIszW5v4yPC5qjVI5PmM1as7AQcy67Z3CWFkv7W+bsGPbOug26/VDYkWcPqx50Q3x54HBmwdzaw1iGCswQp4EANvbmxKp+eT3yRPA3VOS8LpdUR3xNiJtCTRJm/NUkPOLG9rpREAY2mCpZEdwL1xhgygItGNbzI+mJS+ZjyFEx2sifvv8jE56bXBWDmBPZTqPRKOkgVpXOf0gRvp22+gEpjMoaYZ86Pec1M5R1wUON1l06PwPQ4bIvQIqqNPrduSx1wd4/gSqgvSs83kDs=
+    properties :
+     x : 317
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // No modification
+         MyWindow..ReturnedValue =  0
+         Close()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_GroupCaption
+    identifier : 0x26f27514285ae508
+    internal_properties : CAAAAAgAAABTehGMOt3PFO1ggdZY3R0Ri7sDHyfmy2etkS6NbjLgsKKOS6GFc5N51cz+F8rot8kDe4h0MF8hRc481ouL5n87HZ8DwuvJsBpFNdRqVhOePrG3HTUNMvqRUOBxYrHacmmwXtWR6L+a++SDKs6HE0G5YyYqnpi2YHV116mpNHoUuM1cu+bsf4AFl763biToT+oujfl4EaNW14NeYAdLu6eP4HwdVdz0Zbj9nVHlFMOcmmCCbEuL2ki5iODFaFu6TMq6h5iAxWf9JH5LESgiwgGgW3dD8Gu6f9TORtl7eVIPBtriXye+HimlojxvYOAqCYHuxX5JsQH1k17mUBDACIPCUhluIwl97RMG5hZGHMfH9qPRsr7npAdzVBEaHf9jt+jI2H90OAPeR62KMEJNX5Xqbrw63BqCwj4ybaW2WJ6zOuEGD6qXip+gzjzg1SbVVvWYhe/XDMGnN8wPZ/XFzg/ml11uaiZgAXgtYYuB1ix3UPl9SBkONo+uYTDTvVJIBftky72q8GWR1D1T2g2uIlRlhH2MJkA60sKWdgRkz/VOjbV4gUx8o8ri9z19PeplHfM9wcbOOHB3/do+DrcIZKAooQiANNWUj3gmBcnBiv11B3CrARTq1I5GKckUAY7J/Dv5sdsxwg3lBT/akrLbntVDlL9wQFCGNXPtYKgM/e5ZWzOK6KIvlgOpAaWuFq8PkJF8YFEe+I2fRtNiEGEWO73MdF4eq+aDk5LS6oMLooQKWxCKw63PPgEShRKGX63NnIhyok+0ioTWlDl7ZBGo99Vooh2OPAm9s+ajlPzYCpvsppcoKnhHe0yZ2wYfKeN0yeWTRP6NN156AstSaDEfCUOtuhKoHKZMRCP4wXzRHSXYr2UH123I2d5XgtASP7HKDzGxnXVEPfSME1enXUQXPz3nk5gpWB9tuuUGKJXe/z+Es+JJMCZJ8qe6X5qHMM+Roa85XBsIEmpbpUZ8NlZ+36mepL5bGnCP9+X4KyHMibYUsbOFAmzrj/R7LmIXi98WVYDzUJPAZIIFfNvdIo6jwmhoIUaQkFstTfOmWvnyrdvMSE5e2j4GLvoWJ4nDsol+NZd1n/QgkD8P7Z4nRktgWJlRqN+AY1l1wf44BSBiOd5GvZiairpbRqFCOqzdzUU69AJ2ucAPWhWe3pWb6+scuCzU9rNs34hnTMKjWCyGDqNT2JrpYBpjsJATUmWK/io/r5gwtCgkCte7uNIMXTa2rGXi63ibH/8QBcrchsVIOSlRodg18kMOy0Z+D9+9GAdr+n7u0kDs3D045CoJVWZJW+2n4kgaKaQ68kbxPxNAJ7X0424ifL3l4QQY/cKuz/iacVjNL16i7JIR7DsRVRJl5yAZzQ+bP1GC2PAspWJa8xnkfA80eiVIMLREHNx+A3cRR9J3xQ0inZS3Dvo=
+    properties :
+     x : 6
+     y : 5
+     width : 219
+     height : 32
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2885efef52256b17
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACJKlAHgtS/c5NlaH0To1fB5QjfGdACEyL2swnY2Zt2QUnwy9qPmX5Yshmaby82vxkTJURkzE3pM4TBygjHGDdGRIMCd8utcAExAPVhdkxi39A+z0Tcg8g1eKwHfPqC/A==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAB77d+ZSoamX1MS0Xo89X/w1oTPTxorbedZFjaSBMfoJaGTaSm3kYYCWTAxW303SC3jW39don5GQ2Ujsoe56vJ+3fGAud0tczABRxTnjaeRyiWg3JvJ6gncRzRvH4IGBK1h6W/91TWDJhRQJsc1kY2vDgRReCAwQNQK8Q6LdV/xl4H8jhYh6hwTcU8rm6fiK/i+Oggx0Wt/OVBjJHUAJpkZqOE2eamcFXu9EqaSfdr74/UGyZ3X/BQRXTo5xt4Y6o5FhboOD1KQMDxl0YzSA6+v/ngBGQZec2eOBEugTFBAUi4q
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      PROCEDURE WIN_GroupForm(CallMode=CREATION_MODE)
+      
+      // Initialize the return value
+      MyWindow..ReturnedValue = 0
+      
+      SWITCH CallMode
+        CASE CREATION_MODE
+      	Reset			 // Initializes the controls
+      	HReset(GROUPS) // Initializes the items
+        CASE MODIFICATION_MODE
+      	FileToScreen()	// Displays the items
+        OTHER CASE
+      	Error(<§$0001§>+CallMode)
+      	Close()
+      END
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b24cfe73ed4c0c0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Give a name to the group of people.
+     index : 0
+   -
+     text :
+      en-GB : "Invalid window call mode: "
+     index : 1
+   -
+     text :
+      en-GB : "Mode incorrect: "
+     index : 2
+   -
+     text :
+      en-GB : Duplicate error on unique key
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

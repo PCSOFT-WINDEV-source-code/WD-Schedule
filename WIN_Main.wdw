@@ -1,0 +1,1213 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Main
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Main
+ identifier : 0x2a57686c2438b610
+ internal_properties : CAAAAAgAAAA1efoM9gn1KK3CvBIZGfF+05/sZhGXb7Tf0hrXb24APsLEXLHoprHTQ1gFVfTNi2yzduQmhuCxqpeII1KiH6ZUaH3kgXJ1oOU1otAD/HXhugtwwCuKg+5IqYls5H3bz1FrkjJMCc5jHYNKGovmN9lEpA75B+1fb64p0q1eKZM2SqU4fyOsfG6g9XFb6yVB59dED38kbttfvTOO141Wl92JYvsypId6dkOzGuO5VnD5WnNPFADQdbFX29TslPNPXU3pbHnUNLAaBFtz4XDbSLqzwmKRvHH1xTJGucruzK3DmPfbDnbZYFo1xerB/GL/DV8uCnr+EBzazsKEcEG2o59n8r7hu+WgtuZ3UTQWNc2U5IJIIV46mE7QmHaCxoJKqWJOOZxvBMFu8C/M2/MYb/brfso7x5XEIvx/5i26Ig7kuZBX5rZl3f/XPam2ceZqHUS+rN3w61ihQ/ljQfqpuXiBHvsJ9KAPUEgiQguwgIPmk7iJtYa63eHTkD+SDElz6OxL90b/DDtcrWlzem3eaqoTNHzT6bJHn9M9EYTMwVkFADWy5x3MZZE/PaAIrm9T5OyIbqulrbn8/K7V2OU8lMwQH/vizts0TAI6W2Q3xssHcqn53aAUWTuIHl0ON2Nbf3brBv3Ezpx4Her7sYKhA9zFyVVzbpHRxNMrwYljFrtwERG2MZxF96El6GHQC/D0v1W7d+sGdta8GKGObLt4yUECo5qs8UrROGYrXzXd8ul6VUru3Jwk1jrS2r9Rxq+JEcuZ9EfVFhMRdx0=
+ properties :
+  width : 813
+  height : 557
+  widthClient : 811
+  heightClient : 503
+ controls :
+  -
+    name : BTN_NEW
+    identifier : 0x2a57686c2457b610
+    internal_properties : CAAAAAgAAACTezer3j1JUH/tvWuhjy0Kzxzqy2Ts0EFH53JxYgN5Q2gHIScF1pTyKzOpcrD8IH1anF2noNkd4wBekHjAkE+Q51i7L9XR2DqxrZAV/9q5TuK1/Ha09+KzjFOvr/ZLr4iNTZ+clSE6l0j7o6G2BZKfRvcWx3nRlwKoCXCmmfiPd/Efc6UZseuM3lDtZBDlWPzsMDfVK9V6o/+F8GiH5dXP/ISW1vUpmZ4JCmqMijriQajt2vTc3cEUOBCm7sH2wcvSUQN4s4/4IZsRMZc8u9l8crvQe2INYdODkjyGwVTEe9mxtaEKJrZ7Qt/lGa6yDHvaI/v5ZcL2xsLkix9Km8gRWZZ2BSkLZPK+VQboQUcZhe8JEFkvxnbmJNr3TxIeFg+upEscoDXt+Fbj958h1+59MpF+OYby0FwhFOkKFwPkov6Pql5J+cNImCHAr7agPoHycK5SDetfQ4dMfEemlRL7TTgtiia/3cnC1+UimFb2FyfX+uDWsz30lM7Xs+5ROUEoB0ctonEaQd7NCL6uju9BDD+1wO7nGiVyRwFhvuFP1/kuw0JNwVH75S+iuN8Z07M8yAfoLuc6RF0GlEMHEmaMZeYPn11A1rlkMKpZkpNuVTmWsR8nFNmWO/aImN/bbAA+10vYqGrj6NQ9RGeAzUqrYgnLvCdzGWgu8CrmVcnYMRnTiteiHnzALzuZ7Lj3imlFCG6Ar9F/f9h/AsNGuuKo2Z2ROD3okbrlPqwEWyl1AfFRRbYvUHVoN8dQfaui9A2/Q09YV3Zrp0J6M5rLDgbUcCgZ4gIGxzqqkxNyi6/alvz1eLRasBfzEK9qLgPC6GxXbd/2BW+e21bBmGShpIwOoGmc4zKqRtR4vDX2FNh5FM4SqAMEMrV0jJmkXKFBSWS7juqGWOIlTcLHlMh4F9S7D3KI2IxMWkgwu+uUXDvnekk6SQbl219/eo/L1XmUn2ZOesTi+Un7b1ZsdyYURHQH+LhqChS6KsjswWG9/z2NpVsLJqnRhFDUq4KtkNzlh61cSXgsO4Gg9ctuL9rKZOqc9uomdU41hgHG/Ka2B1GLVJ5RFqHicBA0bZddZuPqI0oEN96Ce2/o
+    properties :
+     x : 733
+     y : 425
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         NewTask()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_NoName1
+    identifier : 0x2a57686c244bb610
+    internal_properties : CAAAAAgAAAAHrJRBRTebYv7tjIXYeIC7hiWqoImpnDaLEMo6tDkSuTNWdY3nqm3tTchEuAiMtBZrtZzOchhP5uxJKOnSh+yLWgSis32091uxURZr3AHNYGgrqrFXtdKUYAq5W5bSQu25bOqcASOt4jt9SxknJ/RgLqgDh66cFAsg7d7UPhmOQVwbxAhvJ/YUVV+cKbUuVmC4mQLr6Y0/rnm6kf6OZ+mT+W04l2fcR/NKfQWv/Uo4ACl19SaDmWRpQ8330Qi7BnTiSwaEf6YXDVYaTOW+CHiQJ/TY0NLg+Wi//o+7WKFHuzOwbgBFfgNN91OMP/fAlSyMN1pk0Z2TA4+LMxU69QKoT43OWAys5rw8DmgvGrc2Ozsu4JjwxtaqxML8s9dW4wC5r1ntMKLpheE9UiDzLz72SkgHbqR7GUe00hVTA+Ap9SV1XtBOdgVU/12l+op1Jnqe3dqFeMg6uamzNup+1d8EPDCek33IuTvOYrajtGnhuUhu5pUS5aZ9zeQTHMzALtegfDUJAr97lOZNLH9ao3l7Ptn9c5gMj1q4kXcMuPZtKphJlybdOjqNtL0qNhOir6dmwCbfOJ6UkFPgJmI+GSmjTdbCibydWMk28+2i02JPTik1R2ZUMCrajINXzu5Qw8t6fJd+LXXNLBj5hXibjPV5FP1WAqRSkrewQ2Afu6G72e1hhXvd2qGPwtcwrhp4hUhpEup8o0LbmRXxNbB28aKcpejK28Ro3c2L1uE1UpYou0pmdTB5gXfIOAE3BBC6c6EF4n/ysS48GLt0IVNKo+RaCr0Nq1Yw7o15fhJMn5qIYsp3Y36oYX2O1KrIwVpj2a3HQNplu2EkjhaeRVf2XvotdLTbXiZGAftysgsw4B7bffhxp5IfCmpdcWb+
+    properties :
+     y : -4
+     width : 812
+     height : 59
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_WD_Schedule
+    identifier : 0x2a57686c244cb610
+    internal_properties : CAAAAAgAAAAMl//PLnWey/ZuxRI36yYQhIbxyIzEjrJV5icZWLtlsPr0k2ELR/oGURve7T7IZUbPKMNk/Qq3qpS0u49sLMtvIVx9lgrCt+DPFtW+y8TTUJkTcQasAq2Gl0ZWQbQ0V+3WRW31vdtcWbZODfNt8yemz6VFFM0QZGVohXcTgwsGTnZBhTWFxmK5n+I1NDxxEZyobnOM3LrydhvhflXAB/EVOiQX6hJicw5I8EPMb120b2aQc7Ye9EAZ7DPCZe7bR0nJWn2l665I8ApbBUZBoOAEBmJOGMqCUTa+cTzOHZz/GkCpgnE2cJxW29+ThuzB/O2TQiyKrvmqRPR9Wc6jgqW+7hdJChIrc3HnfGtUIQgO7lV4gKaTKG++Az0MPrzy2ZK403ahlwCwBivGzQb/Qk/c+JzckqmUdl6zIZcavwuEUSS7loRwvQGFvBGEsi0+Nb7k0X4mjocx0LWcwza6Y8ReEZ5BJ8V10wpJqLsK5OLUcVdngmiz3Od3DsaZzuMgLsjmDNsC/IG5T9HJSnt7T318Dno7n6s=
+    properties :
+     x : 10
+     y : 4
+     width : 631
+     height : 51
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : IMG_Develop_with_WINDEV_White
+    identifier : 0x2a57686c244db610
+    internal_properties : CAAAAAgAAABXuQ+1hTjHtW1iDMJkM/J4OUAEUJ1DbbMciK831iQpn5onXsef7Pa9WjZsqXmIJtT8U6GC6I4lI6GzenJMbtyxAy/oMdLxriFS0BJ3tC4qXHVDz/4+Q9DHlBAmzmXz20MoDgffcgHkHMeKzan6/lefbWJ/z8hJ4Eg1L3MCqgcSzXFNGQa2aQnpAJA/jppxz7HpI0VbY2qCDAxpWbXjRsqacHwxiXP5aSNu3IucmNYVAOrc84UaQGYt3HOtefCJTsiFCK52y+ZLdDTlI8KPci3L6PEzK5Z5HAlb1Pb47V6vKMY6n7YPCZ0D94TmG2nlRnwU6X9dHOR19cyBBYEIMEp9tdwuRgGK7KWexBe+l5N9wBbIHxWZhgdPkdAL2BJmi9kG6SH0WMHKFKaRsnWb1CdU/GSUxipviAs17iBqJQpgfVRxMlLnspQM8AgZWejLGkcid+ikj6eHAjmlv8MHaCy4xhaEL635U2A0moq8yRqtYG7493IBTdt9uY2PevXFJKZa63B4C575ALC1v5V2PZPe+CusoxgEmCWQT2rfogEAcyijJZbTD9wsduK/5tshw8dmToH6z4Ngbwr2axa10XbLh1sm92fZQyprL0JiwXKR08UdYTLO2iu4QXBPDck3AyjnoVIZuoqH4E7ug+IXtoNQcqWFcS7ygYluwnB59OIW4sRS19EdG76DMWEQmmylnOOcZDoLvSPc2LV3HnOOQLWDAplDj6exgn1Sr+/l6kjmAc20ccF5KbWywDMwEQ466CvtoYsLrjT+lG6Xn15Bntp217eFJ0j7FJXZb4gqex1HehKBC3xSbC4EX9IaCElMInP2VpZ5zwmDB240Bj6fYwfdXmloyX+opTetaI2z8i+nEjlnIHbf3GWKiyOA6R8759JT3QQUZ92YXX9vfLdUuiPA7mhkj45zIiPpa2/kn/jNxan6pe5RgtMlznt3gE4hFF6mxDkz98ApyeV81dsuhJ6luLEcEW9lEK8qKcPC+WCe
+    properties :
+     x : 694
+     y : 13
+     width : 107
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         BrowserRunApp("http://www.pcsoft.fr/windev/index.html")
+        type : 18
+  -
+    name : SCH_MAIN
+    identifier : 0x2a57686c244eb610
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 121
+     width : 799
+     height : 373
+    type : 80
+    code_elements :
+     type_code : 112
+     p_codes :
+      -
+        code : |1-
+         // This code is used to run the code for changing period at the end of window initialization
+         // The different controls found in the navigation bar have added processes in order to be refreshed
+         // The code for changing period will update the status of these navigation controls
+         	INTERNAL PROCEDURE UPDFirstDisplay()
+         		ExecuteProcess(SCH_MAIN, trtChangeSchedulePeriod)
+         	end
+         	MyWindow..Process[trtInit] += UPDFirstDisplay
+        type : 14
+      -
+        code : |1+
+         Procédure BeforeCreation(aptCreate is an Appointment)
+         
+         pTaskManagement.bTaskModify(aptCreate)
+         
+         if Open(WIN_TaskForm,aptCreate..Note) = True then
+         	DisplaySchedule(gsListWho)
+         end
+         
+         // We don't want to trigger the display of the standard window
+         result False
+        type : 135
+      -
+        code : |1+
+         Procédure EntryInInput(aptEdited is an Appointment)
+         pTaskManagement.bTaskModify(aptEdited)
+         
+         if Open(WIN_TaskForm,aptEdited..Note) = True then
+         	DisplaySchedule(gsListWho)
+         end
+        type : 136
+      -
+        code : |1-
+         Procédure ExitFromInput(aptModified is an Appointment)
+         
+         pTaskManagement.bTaskModify(aptModified)
+        type : 137
+      -
+        code : |1+
+         Procédure Selection(aptSelected is an Appointment)
+        type : 130
+      -
+        code : |1-
+         Procédure Moving(aptMoved is an Appointment)
+         
+         pTaskManagement.bTaskModify(aptMoved)
+        type : 131
+      -
+        code : |1-
+         Procédure Resizing(aptResized is an Appointment)
+         
+         pTaskManagement.bTaskModify(aptResized)
+        type : 132
+      -
+        code : |1-
+         Procédure Deletion(aptDeleted is an Appointment)
+         
+         pTaskManagement.bTaskDelete(aptDeleted)
+        type : 134
+      -
+        code : |1+
+         Procédure MovingResource(aptResourceMoved is an Appointment)
+        type : 139
+      -
+        code : |1+
+         // Retrieves the selected appointment
+         if SCH_MAIN > 0 then
+         	tmpAPT is an Appointment = SCH_MAIN[SCH_MAIN]
+         	
+         	if Open(WIN_TaskForm,Val(tmpAPT..Note)) = True then
+         		DisplaySchedule(gsListWho)
+         	end
+         end
+        type : 66051
+  -
+    name : BTN_PreviousPeriod
+    identifier : 0x2a57686c244fb610
+    internal_properties : CAAAAAgAAABoTsYLoLtFej8bRzRgcwo4QI+EJTW4YcYWs14qCRA7ckW/NG8bOye5qCl9R0DuQRyTfPT0cCbMbboySJpqK8LAvqeHGtSqBqXDVGvX/T2lNcrUyZH+dml7UVDN38LX0Pet/XqFf03yffttQ8ia3oXHCE1iDUC4nUeWpCOGxtawjlgnkTvj/zNmGxxRecx6fApr1F4SnkT67OT+5XUvXQc8tWUoF0cjnwwFbdsM/r6YDt2o2q1n1udLx9gkZq/y82PbOiOEsvSzl4+OcC2T/WGXI1rDKhUYTVbcrtcNEMYLiuva5wogvLdayMYgX63uFBz+agglgmZswLfZgcF/nRRLqk3Dv2vxeHLiHsHvoN8Z07PQchOfAqrQ0CPyHk87kgxk2f0SSjfaVJ10JVlRkw47/2PeDfY/EPdOfuOQ4AqYutwsxQhvrESn/MqqySbW12YT4CYVQqBa4ufv2gttetOm+INUxmX7v5A8zO1EB1o++eBARxf0i1/+dNW1AKmgwPcccCOQ+xtfcVnea+jZYIHHYmhpCxqSgt22MPPBbhHixL0f9gQTo45Cas7OfdHIuF73zvfXpmWemrI///63/hnxWymiiD+K5kmf+VLtLrD51TzWAIwb6tTdrSNcy/CNKdGhR4CSW5Vrnpbci+pkSZzOLcJOeL0YLQSlgRn5KucEn7iya4UmFngr12WxfJNig2a0BvzxMVAcNkMc/fzSMzQ186PhtqcFMi7S6LNaqM9C/PzlMIkyRyxJOovNoj0ETRWbuFabZVFZrD40feLhcOkHsn/ufcqx76iiJr7lQ8ad8h9ULxuBawtCgQGix75asJBgEsoPgy/nWXe1eqGTJKbeoUpIO9Y77gBzO57qLB2QZeQ=
+    properties :
+     x : 29
+     y : 61
+     width : 23
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Previous period
+         SchedulerDisplayPreviousPeriod(SCH_MAIN)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_NextPeriod
+    identifier : 0x2a57686c2450b610
+    internal_properties : CAAAAAgAAACKnzIeAGjVXVlm7+pTVCQm45CwphCFN8BYy1phbxSU8to1nw7eIZAgb0Ll6mE27ZrXISJVdoWYaEXHMC2frt8EyBrl79R8+nzUMhinvnWFj7zDPTNJ7zgdWmzGZkTLhBywnlJ0jbl7q0aKFxWR+epJZWhC1z3RI+5SWlc5G1qE4KmF7J2NzVhmJawC1fG0hNBH4eF+4cGr/trajp8gM8bka/ASZQrpyz29j1KxU3QstZfVinuaWavvFVr5/St+DSJZwX69Kx4pyF5Ds/crkGMsVPQS9Nf3tcyNHomBluLUhbKuP/iX+wi2mdH03mqZZev3KFuoAtsnbFIeVL2wBDlCIpGxb7yXYQ3FxqRNbHho4ouOJU2v0NeH8gwRd53Vedegij2m6gfFEIFtc7r7PMeGpIKVKLprvX8UDTXKykTFQlYKOIf++z7XmVT6dQdybgX/geTL6xsItd4VtpUoBLDHnAhkNqgcUQnLepn2GipnLuhbbX9HvA97p7sREiIko0YgbQNY/G67IP5AtzqCXKQioMNPJ7uNZBJdWtfj448HaXxHlP+nBGJ+3unq1I3FEq2Uv8PaVWkJDfs+axoyCQeYSaLWlyoRNOuvtNilyT9+nb/UQT+pVJC5k5IWYhjHdPZDNH1tFgV+nmRoMmMXvpH54sp1KoQPJuXtfM3uZSxHIa2K680ZoL/ncz0iEpafHP7tROlFVh4jXKnsYhKydBh9D2lp8zYJp8crfKGdmUvmpsXSLOSZS64cTV7xcH32nSfaCj6MqgZQb48K6bH4ToIALDAcA4KBLtqEZc276kr4EvrDPAnzMLbMSY6IuL6UdSqkLTp/poxl6I6qbYbxfKLrd6HDHVE3fe0frE5F
+    properties :
+     x : 57
+     y : 61
+     width : 23
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Next period 
+         SchedulerDisplayNextPeriod(SCH_MAIN)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Month
+    identifier : 0x2a57686c2451b610
+    internal_properties : CAAAAAgAAAA8h+7ZHCkQHcJK5a6/ktY7y3WDgFbyJNDGo0UhQadz/k3f9SfoBO4JSP5sQ5mZo63m/2FbljReTLhsQCRMJFZQx2cTuODb+snnmvkKPSBLJVJX1WGeieASSS+hYX3YPfdrxYNUAjpkq63mtsDUDxEdIL9mpXgMhqFToFq7H4mORuIsQMEbTp4rB7dq1l+Ay1X73B27pFIPXTz2R0DsAuVrz05+kD2/m4qY6NFg+CDJgjkjPgLTEoRLdFCPmscHfgYOoOoevFZTQrXljiIW874jhxWY3gOz0LHPjUyqJYQNgjNIHDcpTmlzYQgI9IRGG9nhe2E6YImmSL6zEUZgooYNEWtCXziz2RdZ3JV4n3kuidGuOwbwe9UEhyBS6n48fgGQCsFukYv9nKHk3FmrElXSBMRSXs1mUg9TG8TONA7L1iz8lr52ufee3M77jJPAk/QGu/jiL7cxSKGHCGoPhodAcsfiN2PqjIm76yfsrhyK4R52jalSFmShkUUimpC1nSPr725C4ZHBlpo4sS4SHiYH8+Mrr5s=
+    properties :
+     x : 102
+     y : 61
+     width : 181
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	INTERNAL PROCEDURE UPDStcMonth()
+         		STC_Month=SCH_MAIN..StartVisibleRange
+         	end
+         	SCH_MAIN..Process[trtChangeSchedulePeriod]+=UPDStcMonth
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Week
+    identifier : 0x2a57686c2452b610
+    internal_properties : CAAAAAgAAACNHz1i2KugMFEUGFqLD4o9K66G+fca1AwMPHf0Fn/3XvpFuTAwapEMPMPsQ6n8TAifjWJi+dytjUUNxFeXGd6kBtMrs0T6UaJBRUAfFMsCzpaIKkwTJdmJpC7Xy8iU9hoae6fs7RqHQEcv00GxhzI78fZhfL4VkKCK7IP/xsLk3RUNU2OmCagD4o+t3bZPE0yXR7gT8fhevCKj4BHtxqCPujgBG+jED9CYsnDw2sToZ9Zd2Dl5ze6Lk+E3kn/zipvEstvt2XGeAuo5hmUYb+c3Gc2VkWnZYsthvgst8BlluEwfs78iY4T6TmLxil9w4nQfYoBOwdzRU6VkImo8Xq7abor221CxY6p6ghSd20MlbcNXQO3m2gnztx8hCWSXV4mbyM9ZNywpXCrnmsneorTuLCxzmMpzoGwpYB1loKpWa3aIiZs6KIWsLhEGY28mYbK4s/PM5mk4r8hSQybvfyG8ACwHQ/ZdE0y1+BoX/Xjy
+    properties :
+     x : 102
+     y : 91
+     width : 181
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         	INTERNAL PROCEDURE UPDStcWeek()
+         		d is date = SCH_MAIN..StartVisibleRange
+         		STC_Week=StringBuild(<§$0008§>, DateToWeekNumber(d))
+         	end
+         SCH_MAIN..Process[trtChangeSchedulePeriod]+=UPDStcWeek
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Day
+    identifier : 0x2a57686c2453b610
+    internal_properties : CAAAAAgAAADLAFuJrTq9mTVCFWHwiXSm/H7qxCbp1LIiVM4Lab/8Buoj2QDMwl4G3NDlHn7sB7TudRZqMwaQGhOtnjQBSVZbPN1Mmh05oUl0pz4jsC8t9w2HPMYLOrGkcPneKApX0tWhUXhpQcA8edCkcfyE440C0HouThx5jIYEtUmGe4j4xIIlMBUJRSOLqH8bTk86b9RYSlVu/EK+Gnkm60lSw97q5tM9ubfedC0tm8W25FnKWy3i1MrM5kltIyN+7eEN4U1Tg0q/Efb1pV1T1mVXdvl+rRoPKc4Omva87psJ2pSGAOPYOXYi/85TuVt1N4fpEzDNPcCLciC2AeRkPHzKcprjADMrr1s2KgarWMRD6FYihUiB3ux6nab8Xu8x0APVnJt69fThXt86bqeFalQSlJaEvJWA1MyDPJ1Z1zdztJY6wmwwPG6pnOqdy6AkfxOcn0mMGvzW36A56Zs4KglpkbIV2W2v7XN+jTZNLz6laAr9JNNdEHCCjQeKIVHybT3i0nZWmg9V9pPz1gnDrBiUL+DouMuvJa0NOmxotV0lRJWBzG7/cGb0TtEERNPAzXiscrrzrMKWIVSNtOY+bZ92GUZJDlcWcl6J62yQeaUXOotgCHMSzHba5FEhlaJcgcRnYpQe1Qa6UyEHANeX5yIUQCh3xUkrHsPuzV4DJoO/OiSIZqIrgPzGNF6BwWLcLhE2z2b5EoDte8n/dA7kP41+owrPir5GMBHDiznoky2TQw+wCYxglsQ3GhdRIQL1oTzbMP1M2RG7h3i5x3+RS//Q7NijCdlkbjepg6Jmo0s9pI+5ZvulA/Mrz7opcvEB5Zg4YonAx+HnjKhWq9wdqYfYTe6OTTp16h+ZWff7ap4EWUx0cTPGmxeVDt2ViBbHIHqCzPBn1yVwkOTCQw==
+    properties :
+     x : 440
+     y : 61
+     width : 63
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // adds the procedure for updating the "Day" button
+         INTERNAL PROCEDURE UPDBtn_Day()
+         	BTN_Day..Pushed=SchedulerMode(SCH_MAIN)=schModeDay
+         end
+         SCH_MAIN..Process[trtChangeSchedulePeriod]+=UPDBtn_Day
+        type : 14
+      -
+        code : |1-
+         SchedulerChangeMode(SCH_MAIN,schModeDay)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Week
+    identifier : 0x2a57686c2454b610
+    internal_properties : CAAAAAgAAADhuXt4i2nn78YsCHQMGSQArtz530Emb68dq73hEeUyPMvapbLrZp4PSqdumCwItCupg3GM04fnznaxIyqXLdt/xQR/DtemTndp/R0T9ZjqF7LMed5hNiG8ArFPw97UzR4Z8Jykb528tjgaLZDXaVcm7ZMoiySjE2GD6/Brd6JiAAGc8+JwKJR2ezsRsFTc+hqJwPE4BnP1+wUsbenjquyJjLUXZ8jg0oZyBS+dZAdWfvUwsWCXAM2PGkVdwQS/eW3+6Bb2Kkc32ECkdS35laYz1gcY1H1hXh0NTnxxIRuIDz3i3hYgPeCD9ydlEXInxFyoPA2VDOKmOlMDyM8NqKn9oqzhftqo9kVNknAGJ9tEev/KNZNLBnwS50o8Y/KCI4APBIuMVnSH2XXlXay+SRy3Mzzd8upffbHSCTLLAzJk9SUM6WUrAWVPCEF13F6+zHalTVzKlwgM45p6lPu4rBrQDr1RT5m0UEhQhb7xcSfrA3RpVFCiafDuSl3013JbfLsXSr9xCtPchshx9GwXTk4bLTulwylVaSQDQfEtA0AJVVV9vO7kwvQmuWe6L1+P7H2UnsC0I/b4AMM+W51rsjLss7vWxpr5NM4/hV/pq0QSUwB01FKIUra3ahiIwcf6ND2ry2CMg2UcXlhpPXgT32wGmnWNSCMCANKm/JdH7X8wQZddIk6Ihs1FqJrQTuDpASHyrBSdR5GU7LeOvfP5CoAOP2YEDJYiV3J8xiY2KduLU47zW0s4vUxpOAiF7fOGoG6dH0P9V3zsy2C1VcGztyCwSiHkmnmrco418ZUjIIjlDdw88D9yxBySPnKtvWkEC9pbx73vgDjdB4nf550HcK85BADNNEudoIEOY8fQmLUYpuTMdnjOb6RpqGzr3YKS9cwj8HqUua+LaxsD
+    properties :
+     x : 503
+     y : 61
+     width : 63
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	
+         	INTERNAL PROCEDURE UPDBtnWeek()
+         		BTN_Week..Pushed=SchedulerMode(SCH_MAIN)=schModeWeek
+         	end
+         
+         SCH_MAIN..Process[trtChangeSchedulePeriod]+=UPDBtnWeek
+        type : 14
+      -
+        code : |1-
+         SchedulerChangeMode(SCH_MAIN,schModeWeek,7)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Month
+    identifier : 0x2a57686c2455b610
+    internal_properties : CAAAAAgAAAD6VNkt+ZVMgvN+dLnUIqdp0DpWhUeRQhLjCjmxR+s9cRFYnE9LrXvWGHxzsj6RMQo8tZugTZC5Y7BwOz1k9Rkk+3uU6ntLmJrjsAPT1ECK4gNAmQ6HE8sViN69k0EEkd3zFXH+AwZ18IzZQNfwnvU49YefkqUZ5/NItU+cBQclSZLlUbvaxmB7xAGyXRcJmjLiWUFsHhMjGDHlKPYu02IkVVl9O5JiH7WPU85Ssan0Yu0XROlLiGDG1/S7d+s8iZW6hFGiMEYnn/ckGmk+KocJ/1UhmChtDSuN2ypjsizGAmwW+DZBpOlMIHqSpIvAWOB16VP6hhzWGufGYAgS0iIQWrTJ7fdeFRyuzjo0MTCAm7rg5sV+btEsWYDnn4l+QpboghLG/8pfwu0YfD08hXogSuQM/PHC1ERIg4+EoRhRpjrYVORpwnKjNUY11zjl0sIkky84u/wzweYRPaurAnDsMx44J1ZkrVz+8g89QBFdx1Pm8b4vq1sgpjjL4al5ylPGszLH//W3CEyo8YC8DioRENyGVxj36tz9dFp9HLjN12z2AVT7Gh/qPyy7R/JFyt2L6/G67mxXVrvl+iUMaubqdkCvZMdXO6yXGig/kgqYv1WVj0Thyvkp9rW/MaRyaC/C+ntGaLkV1u4gLBKklyBw2RwypKDyIxYoTVBFIJ/cN4B4LZhTAn41jqm13oG5BR89L0kbog29dFXJfoUGbNKK8CMPQfskcGISL6XqWj3VuyHuekfRbaN15o0SN+oQEtJAhB7PmnYdy1LSZi2WaaowexrPUPB/G8YXAmjjopylb7xUKIxtyDB+lG+IZtF4Ln8pr1ENu7KeOUAEvO+x+8gG7hyonb18ptyD1Hoh7qEM+PfwaqbtO5rdMO3KJkjZXSSWC3+L6rpHJ8WTWw==
+    properties :
+     x : 567
+     y : 61
+     width : 63
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         	INTERNAL PROCEDURE UPDBtnMonth()
+         		BTN_Month..Pushed=SchedulerMode(SCH_MAIN)=schModeMonth
+         	end
+         SCH_MAIN..Process[trtChangeSchedulePeriod]+=UPDBtnMonth
+        type : 14
+      -
+        code : |1-
+         SchedulerChangeMode(SCH_MAIN,schModeMonth)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Today
+    identifier : 0x2a57686c2456b610
+    internal_properties : CAAAAAgAAADhzNwrBPFGbvHGtd6KbybpienCItWQqivO8XSWw69M9+XjyJ6Fv9iMbHI5f9hxo2+tyl9KnU5UXqx1i9U31DsIbWpciKBA6C37SoupISAOvm+kaVpmBMA1TXy9EC/dbN7ZK49gIAeGKyAKUHf4bt0c+sY2CaJWagDl0IKOBbdMR9FRZvQEA+1v31slZ5mLsnjhPcTBdcUWh//WfmLSQebmNSd4Z5YtMCU6+l/vcJ1aUWSFhcYKRwG94bt6L8m5smfABkjbnz9hj6iUWJMw72E+ebYMz7suKJf28QQasCRyH7P28mk0f12ak34KwSdoUEUPH1sij9bVFg+Dwi3JiaVdy+HrFGWNbD7qrHMJ7dB35EPGAPfBlJ209P5im8WtrBepnDDA+1muY/bFOetcqFymNR9dj6cXIEwevJ5mgGTOiPcC+PHRTB05J8JqtTYK2brDiawo6bEugj9U+SmT0YrnbI1OjLzZBergHxWeJI+57lzA1DpkKaXyAy61eFqnLnF3eyH2HuQWYxfTB+tT4fqpNlWcY99yD0CQ2/C6YH1Cxzy8CXuRZxMnxJvJU7ajZKVhoB/vBs0C4Vl0sT6hhL6Ev/sCzNCF4xBZaUMeUL9n+Y10I+Soj7anmJX4X9lcUy1IeRxuxrX5EpQfGAKU4pmA1xaflRcMEcEXA0jvGIpLB456WRNo++0b5FB35JCHa7huZo2FrgAdIVPk1t0Yfk04Ah7ikd9BVMe7Cm/NSXddut30eYyEq2WClUeJFWme5zGR6Tr6wlLHZrD3C3KIn8gshEudVgMq0wyXhbQ+LqO+ozg0U92uz49cn2OqGSFkj+obNarPl1cd4dIAHwIxXMfi0DcY/fP+STAkmw2tmWXEJCTIdGzE
+    properties :
+     x : 635
+     y : 61
+     width : 93
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         SchedulerPositionDateTime(SCH_MAIN, Today())
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a57686c2458b610
+  internal_properties : CAAAAAgAAAAqzaw1TAdz0Auc4Evo6x/zgrFekl4TVFd1cepuHS6ZQC3MmPA0QOlyBK/PQ8txuxrwX30TfjoDvVxCkNOKYr3EG+wJ6SnkhQsZezBXjneWQvpEOBfSah/8/c1HG4cphEH0t/73VipITGOgURWZQkO5WZ8bdKfIAcFgKaS6Dn0pNedlK40QMhZyyO+itP5YQFkQ9QDPDDJqSjeTUpGupJWC0PTUACZ95kd+LGYqGL1SG+//UqRxuy76M2BOFjlmBtsH56tb7odR1Xo+DnfsEB0p0NMzJWiEq/rwPXCLex+m9AWdGCKARN1dt4/uBcOeCRo=
+  options :
+   -
+     name : File
+     identifier : 0x2a57686c2459b610
+     internal_properties : CAAAAAgAAAAyhU0+jKk90hg6sk6cTftWPYBujCiokYWhpyyHQI81DmneMsqLlH7qSeB3iHBF9q23UpYV7NFrXhNp+5IMlU1SpQjJm1YGuDvJ97LtWNYFVKEA1QET/iCl+pAtGdJdtncrrbzG2JLo+gHLIRzkrpMnACWViSbG2YlSY3GFQwJOD6YpMv2zd5KJrOoc1+70p9apho5941z9ESQjgqjrFnYE1yF6Om6mVOqul0tjNn2XznCrIdFZ/3e52TuQ8dP2beyD9I4YNOrAL2aGkB2j/8oBAcqwTNYDJuqHJ3PN9JKr3LtfFZlD6Jn9UJtbO6J4ifi1+pPTC97vTw7ydx3gJnKCf23pgXU=
+     options :
+      -
+        name : Persons_
+        identifier : 0x2a57686c245ab610
+        internal_properties : CAAAAAgAAAD8HqcZs8ak+xk6Uyuqs4FK0wRbCGBWzKfGBBiYm/CMPczjwG+vOUUqWTt1oLD+CIVSZxu7nJbluyM2ocv5tf2f05uelYPaHtpenrFhDDvwvBh04LXfMTA6tAYoSz547Usj6pmo0ygTd9G+x3aDSqiuVFa3WTstCWZQCZP0A2o5zPoTKSKK32rJ7Blxjs+0wJnmMiKnIZutjW6HNzsAvcnL/pe0IR+RGckwW0jskV9znLfN3e9qp5UrqnfO67fELsCXha+HFeDR1xiMLmCKQtGO7dZe2o7GWy2VB1crEg2UhXCVDKVNN10+uZugTLm8TRs5HS+PAzCVeTSX3xtr8Nt3eZTGT7s=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Open(WIN_PersonList)
+             DisplaySchedule(gsListWho)
+             
+            type : 32
+      -
+        name : Groups_
+        identifier : 0x2a57686c245bb610
+        internal_properties : CAAAAAgAAACudBAtATfJf6HJqTTMq5qBOBugIAHVx2py84urOTLq/t172gWWvcJPFxr3LfZsxa3PVHeu2uw4HI5fExQGTIhJoL+1EHJi2m/7qobnP7NbnCrVZrFG4JK+v/w+zJArTIrk310VTd4t55Y5tlApPKHO2vp1g/7lxf/Rc3+9UwFkyWdaafCdIRb1rat5DdKt1CenZnm5eiliOKfhYofl7KDNRSOgChRH1PtQLNdWGxrXFmqtQWR9sSnF6fT9J6VySlp7dSrJeq2gGfY7G95vihHavRYIaXJQRgFeYb0yJMUVyhJJb/M3v6GUEWUv2QKPSWqyUk3K6sZ2OuGUdDMM9zZmnjKcvt5ytQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Open(WIN_GroupList)
+             DisplaySchedule(gsListWho)
+             
+            type : 32
+      -
+        name : Locations_
+        identifier : 0x2a57686c245cb610
+        internal_properties : CAAAAAgAAABxm1+0ohCjRpcWv6Nl7GSB6wozwzdupQbTx++8S2W6lqKl9F7vIk5U2lUXNtmzlcJI8uWLH31aKlqX5A3DHojFX9QCXNL0Z36kq0nW5wGTmiEnf2y2gnGV9TSxOKdBHJALg/C6IbNcXTkKSrAG1iYDH3lNUF0HokRNhb3bYzTv7ZdqA6fSjbbqZ0jK5ohFZorbQxlCDUFQkY9uO5glbgw2dwy2c89fFP4aD/YZa45fd4QExYGM8xuwWwneKONWCB0/bOZGLe0Swpk3G8zu75/dJ94pAqcUbhIY8BLP3N9QNcBloEUk7UqAnx6jB0ma4i/ANyKl8S6QvCzCWKKjiL7LjIOvQE5V
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Open(WIN_LocationList)
+             DisplaySchedule(gsListWho)
+             
+            type : 32
+      -
+        name : Option1
+        identifier : 0x2a57686c245db610
+        internal_properties : CAAAAAgAAAA46WDgQmYg19CrkBlqupVZXUBnjcZZ7fI1BH1O/2ngxl1pE2X7qVt+iYRUtMbB1Z+ODRAjgI5unVZBrbgFL/RhcAL0JLC0piw3EArAuU+sdP4JRjWDn5PSkEoOWUsj6PeufDgkgXImLb8J7L8e39f0plyL1B8m5GBvYGtz4WSSAduq225sPrdVf99pHSm8snLXApKcoYkiGdQb7QUboN8a9HTwvIOc6fHnzDL258/0i1IV++O0o/HhvFBhO5DrleNmuhcIvnEUrAwtxbO43x0bI4QqQlRsut5iNuMxNtYJlHxq4kzNbNKpXAe2s3IADQbmKm/iFGOi
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+            type : 32
+      -
+        name : Legend_
+        identifier : 0x2a57686c245eb610
+        internal_properties : CAAAAAgAAACdxcBxPDEirHDzrnaUH6f5toCc5kMIUD+j8+oIQOV5jRWUJpveDg8NRocS3D1dLKLAG6pIG12dQC8/IgfrAz9s4k+o+OYane+juwr4l9D9B0L9huvCqy7s9k6/VBkcLUhwNSPWpwx4pdEsX0F5rvNPxXdAZgiIe5dtV7U6H4niPCha9r/PbV44IVS3F3+7fOhhFATdfx0nY87wk8L7owt2mezJ1EmC5CVNbTzWeuH6SG3S68nnxiHi+1aevGLHfUOArIgAiFCiDxl27piQsnq73oc+mTsJe6DHBr/eXp8jO4lkcZAUBGADBXlehyMgCoz78+3/2MZ3OByZvehXQ//WdIA=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             // Legend = Types of tasks and associated colors
+             Open(WIN_LegendList)
+             DisplaySchedule(gsListWho)
+             
+             
+            type : 32
+      -
+        name : Public_holidays_
+        identifier : 0x2a57686c245fb610
+        internal_properties : CAAAAAgAAADKYZoog0LwvM+lSXVvgyrO2jPV/EJrX6iLDrbJrMArd7DIuCciViWOTBOpeEgHFr+tW9ghgC9ECCJXdqHMzmDCY9/mRCcPSjYlk83+oDmjR/FM+lbQtcp68SC+Mkpn1Cc32XI0b0PoKSqSt1X8xkHACQVn4JZsMEaRzvqSNXDXIws0Ql4FQnTrKe/z5iHaxYsfjJvu5kfTFAlFq/k6uxHSB5CiOD57QuROIxxpQGBiEPsd31Y0SDEQShCUEDZBTYrBjFZREyY7zyz0nStXIs6ObKEOds/NfKHXrwG99bEL11u5X8A1MZHMmjTmdpbmhms+PS8H+giIeq3kyEdSSwDvkmn9gLQYrSvG5g6F
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             
+             Open(WIN_BankHolidayList)
+             
+             // Draw the schedule
+             DisplaySchedule(gsListWho)
+             
+            type : 32
+      -
+        name : OPT_Separator
+        identifier : 0x2a57686c2460b610
+        internal_properties : CAAAAAgAAADjIiAbDEXu87g8jpyZLr2ptfkVtYfCLjELGhqwFXXvKdbvqsYTmMvTYd9Xv9m5f0+OjOqbR+8fdUp7/vXrHpn5SvG3/IeV5pub6s1n81HssFzuctddeRfrOyZh4oF4VW3Mt3+Ej7AXwx7k2bgeiB0/lqR+G27NAM/ziE+L5ttydx1MuW26JpGq01X1oN7nh/HJ9SlN1nv/CR0Hx2Bqw4soCsmc2NGKIviODM/nHQeLWXEyzp9bPVCKvDCJFn2Fv7pS90S00G5zqC86n76d4AfIOR1PlZBwljRpWtX9crY9r/vENixCUm1FWVNs1eeyQAvGuIWf1QaNKZw4CbXqtGTwZQ==
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_Print
+        identifier : 0x2a57686c2461b610
+        internal_properties : CAAAAAgAAAC3V/zALhK4225QEmwLW4r9N3QADkQRmWbMpxs2XsRidmdNMMLVL/VqK/s6JZvqRM3gjCGylbBkMwtuqqCkXWXWmM2WRmODpBLrFoidqU2goqzLTtdmJDmUfT2ssjO6pu1x5KZITza9MmRIA2TCZqlOUbPqP/HpVvSYs5kbtTjEOcKHEPaTgeacmtGbAkksIFxELq5Bip/A/avZVLFr4BR1rR03u+I52xt7uq7QFLsNX6ItrAFwZx/rKwhaw55tbEucvPsSjh81hMNQvNenj2ASlHfP+xXb0CseoS31XPRtQVbMFZSTYZqQyK5/TD5XdZ73i1Fsyg2GOi856oEAh42csQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Open(WIN_PeriodSelection,gdStartDate,gdEndDate)
+            type : 32
+      -
+        name : Option2
+        identifier : 0x2a57686c2462b610
+        internal_properties : CAAAAAgAAABEZiul5//wxTSPtEJ4WxKmHsA858V90DxTbjGlu0MQWTKV7c9ouOB5aTzPMVmlCjZ0Y+s0xy/1RS4xHs/1E70VM63sfSMFwK3XivbfgqHHbQi5gjwqvR2eEIXq2+pTPoyhT82bVJ/W93ubWjshdtkzRuH5FaKGvzwkHMVPNghWZeJ0eAwpuylfvt34KsgIyCxAVpN4TCgUM9Wt0nQwHDsypRApFm4zdXVctPdlAB/YHbnl+q9hXJV5ja6g2EdB67uPfIZGDcBOAKn3ogJ57ctHZKKPSNlBqnadtJB8Z5xX4J/ptuGmfpI8PukxX1+MIbTJVEjEsaJHyg==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+            type : 32
+      -
+        name : Exit
+        identifier : 0x2a57686c2463b610
+        internal_properties : CAAAAAgAAACophhwyUUwBCWAQla3wt3xk60lehtG9Y3DzWiGcb8vG3QPJiipFkUQBovl/c/eS0tlAPoKWVx1bKDUHwQ/ejPLaGJoI6LUko69+hfy1V3Zx5CVpmeaWr4bvkdPLGad9tNVNcqpYUNVJdWaSpY4d9f9ZiIxddARXhWgyzxfy/latQVB0Sizm4NOVGi1scTSqKIfyW0sPRmySLhgODfKeCbSPEOymcpPbFw57TyLqwsJjPA5xubcanlTndxiot2fNsl/WEhtyIeEEZFTDVR4DAE/eO+ugAXpJJ5WolWnf1Wmh0guM1Fsgsq4Y10N20kKpwPl5vfZh0SGnRCqOL4xDJ6j
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             if YesNo(No,<§$0005§>) then Close()
+             
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+         type : 32
+   -
+     name : Schedule
+     identifier : 0x2a57686c2464b610
+     internal_properties : CAAAAAgAAADIky4vhgv36RZsI7vvcLGwDcLjU1YFNw42C9Q9l2a8oM4dsNkRcJDQsg5isBwzQDoWvVvnNbeYul/jwQtUypCUZkB3bGQaMTelcFeWEgkM2C2nbEq89S+fsDm9tyL+EySKp3/8k3U11ecvUknsVRlXYlKO5SL9DpsnQvJXFAaSmv7N33dXOLBZVeTZhp0gNHiYzUO1Hq585v1ubkSECRIchGzKVphEZr/Iu/+nfn871xtIa2ARcCmzX4f/Hk73cidYMjWMQvejIoL2WldXvNfZzMZXZ8rtboe+2I1nJ3BMPVfX2J5XMC7hZcIqmV5xDtdTN27CUFkKPHNDiBvPYtWgNmpWWLFQZ+zwJT0=
+     options :
+      -
+        name : Period_and_people_displayed_
+        identifier : 0x2a57686c2465b610
+        internal_properties : CAAAAAgAAAD64YBpK1pTLrChYxW2Cvnry78XYpS40nxwJp6EiEQUMTGLPy2sLd5BRSDiz+q6TDjHnbl+929Yj5Mesyo81zqFU/5JE33MiF/ptffFRko4ymhCvt64SIC2YCY4lyW3ZAHTHiKyzreOGAH85zVtKInMAUanaEoqk7S9hI3G484hMDB2zvH6bG9AP3/cdncP+nS/ie/Sm4+GhPrXCBS9Ra8t0/ySaO7Tnm9ox5LyKYDKC71oBYDAru+bcT7A+y7uhf8rTfyzBvRhIK8H2RHJUUoBivkUu6Fx4cj6eDmMbuy7JKppbE9fpkVmcIAFBGtMkw9w0/FMuwMMs/9QbjfDrKlFWW5HmF91SnKfwLILVt519g==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             // Choose the period & the persons
+             if  Open(WIN_ScheduleTypeForm,gdStartDate,gdEndDate,gsListWho) then
+             	DisplaySchedule(gsListWho)
+             end
+            type : 32
+      -
+        name : Schedule_new_task
+        identifier : 0x2a57686c2466b610
+        internal_properties : CAAAAAgAAAC5oAWPIG8eFXzqSCYB6WAMSCVL3TZ1fd2zBWXnKPYbJQhfwRS9GYyMxt799J9XCqllMAcHnJyvgjYqzlzui5qwkuhKoI6u4MRYv0TUCi19H/ON0p5t3H0JNLHW3GDJxPn16Bit3NsFRugr/ltrcIo/3Jc6pDYmugluJLzloRC0mA6zoXXuontPRYoRPQCeZbOe6Eblut326qPWqskMAkQQu0dLqtd0oUw2U9fU0sVDVDKLGDr6K0SCKI6gBL2WVR4ULaQyV0ub4u6E27VHXfvcGzTvzxwgPoAeQyduntMRBG2BM8X/cXDgpWOv1JETgIGQmkylTZWA7Q8gKG6CFspSZGm+MfAY/6zhht432Zs2NQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             NewTask()
+             
+            type : 32
+      -
+        name : OPT_Import_a_Google_Calendar
+        identifier : 0x2a57686c2467b610
+        internal_properties : CAAAAAgAAABeijPO9AT1H3ynfaWWwJVT+14AEzFSEsohTwHg7Aoc8QrexpapxHRI7bvnR5pQc5FOfu0+CU0hMZGSYlvVzZVMeEhoYAdyDtWOF4kJ4NUQT4Sz7AqNp3bKuDy9tEU5C9kfBPB5ok9oZhjAr32SsNqvtXm+CGFzSR06iNx8o0kpS943a91O6DSP7ZzD1ONGJOniEwTrFfj0CLpzdAZUWDoO1bxEz6WKjvjhKJjM3cqxVPfT+AAEec7Q7sg8U5SzUyCkdYmDeRvV5FPBiosj7/SHDhiXlyeJkCKEl1XmBlm1i0N6HWbVMqKRLVRCS//KB/xzV2M6vdo/1gnsmijyuMixuggsSTxb8KMQXNOD9PTpzFO51xWY3BcW
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Open(WIN_TaskImportGoogle)
+             
+             // Draw the schedule
+             DisplaySchedule(gsListWho)
+             
+             // Position at the beginning of the organizer
+             SchedulerPositionDateTime(SCH_MAIN,gdStartDate)
+             
+             ToastDisplay(<§$0007§>)
+            type : 32
+      -
+        name : OPT_Import_an_iCalendar_file
+        identifier : 0x2a57686c2468b610
+        internal_properties : CAAAAAgAAACqKWEL317gNTiJkm8Iwz5gW5yn2rrxkws0QlCCVzGsCpGXPou45A76wcQ/mDsIDrJNSDJXmaTJxihTskEaONMAuc11+InogKMuJCG7MPnI69QVsCi7IHU7own0f8QminJKBQnQ5tRSt26nNDxemicdXMaKys174RNHnD49xjuG8CDI57ruW3bEchD26GWkeBWZUPi1QckU3jcfkaTcsApFRvGFMSaPRlVVka89Iq1KYOzLh3t39RQXURy9SOAzHJOnhBmWO2uiSlv+UIRF9I+hPM1VDxrLzQfAkFRfRZL5tQZET/ytPxC2UzWrdeMKTKyfOF5ItfPQwqV6HLqU9zY3F0Hn6bE/2P3EPYQiGX4=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            internal_properties : CAAAAAgAAADQeTMQm6RsKecOrU4JhDojhD5z7axwvRwo9P4nV7zql+gSEYS0G9Q/uw2NV6p4EnslkgArjJusmlyh89tTplyDglRURQklf1cMUH8xbns8e30lAzRbO2/kgnDP0OpPbNfbOJzQEwONinocxML+fo7vICtUEVhHUxMi1MPL6aXsoFFqx1zBP1wdouW1KEODx4WU
+            code : |1+
+             // Resource ID
+             sResource is string
+             // Path of the file
+             sFile is string
+             // String containing the schedule in ics format
+             sICalendar is string ANSI
+             
+             
+             // Opens the file picker
+             sFile = fSelect("", "", "Import your schedule...", "iCalendar file" + TAB + "*.ics", "*.ics", fselOpen)
+             
+             if sFile = "" then
+             	return
+             end
+             
+             // Retrieve the file content
+             sICalendar = fLoadText(sFile,foAnsi)
+             
+             // Find the resource 
+             sResource = Open(WIN_SelectPersoniCalendar)
+             
+             // Check whether the resource is correct
+             if sResource="" then
+             	return
+             end
+             
+             // Add the ics file to the data files
+             arrAPT is array of Appointment = iCalendarToAppointment(sICalendar)
+             if not ErrorOccurred then
+             	FOR ALL ELEMENT apt of arrAPT
+             		// Reset the file
+             		HReset(TASK)
+             		
+             		// Assign all the items
+             		TASK.TASKCONTENT=apt.Contenu
+             		TASK.STARTDATE= apt.DateDébut
+             		TASK.ENDDATE = apt.DateFin
+             		
+             		if HReadSeekFirst(LOCATION,STCLOCATION,apt.Lieu)=True then
+             			TASK.LOCATIONID=LOCATION.LOCATIONID	
+             		end
+             		
+             		TASK.PERSONID=sResource
+             				
+             		if HReadSeekFirst(TYPE,STCTYPE,apt.Catégorie)=True then
+             			TASK.TYPEID=TYPE.TYPEID
+             		else
+             			// Use the other type if no type is found
+             			HReadSeekFirst(TYPE,STCTYPE,"Other")
+             			TASK.TYPEID=TYPE.TYPEID
+             		end
+             		
+             		TASK.STCTASK = apt.Titre
+             		
+             		// By default, the imported appointments are scheduled and not confirmed
+             		TASK.TASKSTATUS=1
+             		
+             		// Add the record
+             		if HAdd(TASK) = False then
+             			Error(ErrorInfo(errFullDetails))
+             		end
+             	end
+             end
+             
+             
+             // Draw the schedule
+             DisplaySchedule(gsListWho)
+             
+             // Position at the beginning of the organizer
+             SchedulerPositionDateTime(SCH_MAIN,gdStartDate)
+             
+             ToastDisplay(<§$0007§>)
+             
+            type : 32
+      -
+        name : OPT_Export_the_schedule_into_an_iCalendar_file
+        identifier : 0x2a57686c2469b610
+        internal_properties : CAAAAAgAAAA4+ucllDLoumVmtV/ylhnirOZJL5wDD+j3rY/FTG+k17PsWo+KW7B5sB+N2Ob1QE1iuJJmxvUcc6CafNuP9kxOPJAuwlIM5vfqDR3BJod1kH33p4SEAe3jT3JRWvPzKOk9vlMuejbpIYZRn/g9S0aAPzZ5zEtr1cYqclfA6YM6TmJ0AKM8HpA/N2UJyIpFVZUzvYfPCcUFa0ZZBAG0cU2aXDffI03Lf10PuBmoQmidcgLY+Cj3p8tvLynTc9sSBs1qiPrXsY+BBSNP2pSsgROksjo6j7MOoeuDEhh23qpKf2OZaOv0SV1scHTLiYg0rpfUPMUh1E53UvXZlwmshQaeZ9Y5TXr6xqcUIxPJokUs3OvXD92giVAnwtW3W7N72LWBFailnQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            internal_properties : CAAAAAgAAABzWrI4z90WFUkKS32Wxu4zYpyS2IW7ClHHtHr4lMvHF+QBtVVKCadLTMuM6evmnY5Df3XbrscMZxIP4+hpZev2JHju9PvI5oxchTN25hr1rAo3Qoo0aNYJRPW0TOB2KaMMsJf7NbAk09krZwypvObyKeDs7H6TEAApuhIrA7X8fw==
+            code : |1+
+             // Resource ID
+             sResource is string
+             // Date of the schedule to export
+             PeriodExport is STPeriod
+             // Path of the file
+             sFile is string
+             // String containing the schedule in ics format
+             sICalendar is string ANSI
+             
+             sResource = Open(WIN_SelectPersoniCalendar)
+             
+             // Check whether the resource is correct
+             if sResource="" then
+             	return
+             end
+             
+             // Retrieve the export period
+             PeriodExport = Open(WIN_SelectPeriod_iCalendar,gdStartDate,gdEndDate)
+             
+             // Check whether the period is correct 
+             if PeriodExport.dPeriodStartDate = Null and PeriodExport.dPeriodEndDate = Null then
+             	return
+             end
+             
+             // Perform the export
+             sICalendar= SchedulerToiCalendar(SCH_MAIN,sResource,PeriodExport.dPeriodStartDate,PeriodExport.dPeriodEndDate)
+             
+             
+             // Opens the file picker
+             sFile = fSelect("", "", "Save your schedule...", "iCalendar file" + TAB + "*.ics", "*.ics", fselCreate)
+             
+             if sFile = "" then
+             	return
+             end
+             
+             // Ask or save the created file
+             fSaveText(sFile,sICalendar)
+             
+             ToastDisplay(<§$0006§>)
+             
+             
+             
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes :
+    -
+      code : |1-
+       
+      type : 32
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADrHnFfoWH3GEbwaHHyg5hVbrVkObaDHgJKoxq73sf/6D1F6UxOgHRMUTmyooCJy/HSJznD/QVhkY0rNcggRQBL4UP5h4ilauI3599ZC6X/hJ1OabmtYwRrr612DypdyFs=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      // Latest values by default
+      gdStartDate is date
+      gdEndDate   is date
+      gsListWho  is string
+      
+      // Initialization
+      gdStartDate = Today()
+      
+      // End Date
+      gdEndDate = gdStartDate
+      gdEndDate..Day +=31
+      
+      // Test data if necessary
+      _TestData()
+      
+      gsListWho  = Replace(INIRead("LASTVALUES","ListWho","",fCurrentDir()+"\SCHEDULE.INI"),";",TAB)
+   -
+     code : |1+
+      
+      Initialization()
+      
+      DisplaySchedule(gsListWho)
+      
+      // Position at the beginning of the organizer
+      SchedulerPositionDateTime(SCH_MAIN,gdStartDate)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+      // Store in the current parameters
+      INIWrite("LASTVALUES","From",gdStartDate,fCurrentDir()+"\SCHEDULE.INI")
+      INIWrite("LASTVALUES","To",gdEndDate,fCurrentDir()+"\SCHEDULE.INI")
+      INIWrite("LASTVALUES","ListWho",Replace(gsListWho,TAB,";"),fCurrentDir()+"\SCHEDULE.INI")
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : DisplaySchedule
+     internal_properties : CAAAAAgAAACCwx1VM3QczZ6uL3iXDbOuqHXaJRo3IehFv9pk6DWAjyZfFYnfmykoMRLbGWAkZkEUj+Gg2hwrvmkRrtBFJKMWs+Gp/p5EKUjRGtArWVS5zh0yUeg7tolaqELnwPlMGeBNgiAjmD0YzTrOpj1Z
+     procedure_id : 1898100581053412880
+     type_code : 14
+     code : |1+
+      Procédure DisplaySchedule(sListWho)
+      
+      // Variables
+      i is int
+      PersonID are int  
+      tmpAPT     is an Appointment
+      
+      
+      // Reinitializes
+      SchedulerDeleteAll(SCH_MAIN)
+      
+      // Initialization
+      i++
+      PersonID=Val(ExtractString(sListWho,i))
+      
+      // For each selected person
+      while PersonID <> 0
+      	// Search for the tasks on the given period for the current person	
+      	HFilter(TASK,PersonID,PersonID)
+      	HReadFirst(TASK)
+      	
+      	// If tasks are assigned to the person, insert him in the list and insert his  tasks
+      	if HFound(TASK) then	
+      		// Filter the information about the person
+      		HFilter(PERSON,PersonID,TASK.PERSONID)
+      		HReadFirst(PERSON)
+      		
+      		// The person was found, display him in the schedule
+      		SchedulerAddResource(SCH_MAIN,PERSON.NAME + gLink(TASK.PERSONID))
+      
+      		// As long as tasks are assigned to this person in the schedule, display them
+      		while not HOut(TASK)
+      			
+      			// Filter the information linked to the task
+      			HFilter(TYPE,TYPEID,TASK.TYPEID)
+      			HReadFirst(TYPE)
+      			
+      			HFilter(LOCATION,LOCATIONID,TASK.LOCATIONID)
+      			HReadFirst(LOCATION)
+      			
+      			// Add the range
+      			tmpAPT..Resource   = TASK.PERSONID
+      			tmpAPT..Title       = TASK.STCTASK
+      			tmpAPT..StartDate   = TASK.STARTDATE
+      			tmpAPT..EndDate     = TASK.ENDDATE
+      			tmpAPT..Category   = TYPE.STCTYPE
+      			tmpAPT..Content     = TASK.TASKCONTENT
+      			tmpAPT..BrushColor = TYPE.COLTYPE
+      			tmpAPT..Note        = TASK.TASKID
+      			tmpAPT..Location        = LOCATION.STCLOCATION
+      			tmpAPT..ToolTip       = TYPE.STCTYPE + " - " + LOCATION.STCLOCATION
+      			tmpAPT..WholeDay = TASK.WHOLEDAY
+      			SchedulerAddAppointment(SCH_MAIN,tmpAPT)
+      			
+      			HReadNext(TASK)	
+      		end
+      	// Otherwise, insert the person into the list
+      	else
+      		HReadSeek(PERSON,PersonID,PersonID)
+      		if HFound() then
+      			HReadSeek(GROUPS,GROUPID,PERSON.GROUPID)
+      			// Add the person to the schedule while the person has no task on the period
+      			SchedulerAddResource(SCH_MAIN,PERSON.NAME + gLink(PERSON.PERSONID))		
+      		end	
+      	end
+      	
+      	// Go to the next person
+      	i++
+      	PersonID=Val(ExtractString(sListWho,i))	
+      end
+      
+      HDeactivateFilter(LOCATION)
+      HDeactivateFilter(TYPE)
+      HDeactivateFilter(TASK)
+      HDeactivateFilter(PERSON)
+      
+      
+      
+     type : 458752
+   -
+     name : SortList
+     procedure_id : 1898100581053478416
+     type_code : 14
+     code : |1+
+      Procédure SortList(sListWho)
+      
+      // Sorts the list of persons in alphabetical order
+      
+      MemCreate("ZMemSort")
+      i, PersonID are int  
+      
+      // Browse the current list of numbers
+      loop
+      	i++
+      	PersonID=Val(ExtractString(sListWho,i))
+      	// Search for the name of the person and load the memory zone for the sort
+      	HReadSeek(PERSON,PersonID,PersonID)
+      	if HFound() then MemAdd("ZMemSort",PERSON.NAME,PERSON.PERSONID)
+      	if PersonID=0 then break
+      end
+      
+      // Memory sort
+      MemSort("ZMemSort")
+      
+      // Reinitialize the list
+      sListWho=""
+      for i=1 _to_ MemCount("ZMemSort")
+      	if not sListWho~="" then sListWho+=TAB
+      	sListWho+=MemRetrieve("ZMemSort",i)
+      end
+      
+      // Free the memory zone
+      MemDeleteAll("ZMemSort")
+      
+     type : 458752
+   -
+     name : NewTask
+     procedure_id : 1898100581053543952
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //NewTask ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procédure NewTask()
+      
+      // Call the wizard
+      nCreatedTaskID is int = Open(WIN_TaskForm)
+      
+      if nCreatedTaskID <> 0 then
+      	// Search for the created task in order to display it
+      	HReadSeek(TASK,TASKID,nCreatedTaskID)
+      	
+      	// Person already displayed in the schedule?
+      	if Position(gsListWho,NumToString(TASK.PERSONID)) < 1 then
+      		// Add the person to the list
+      		if not gsListWho~="" then gsListWho += TAB
+      		gsListWho += TASK.PERSONID
+      		
+      		// Sort the list (numbers of persons) on the name
+      		SortList(gsListWho)
+      	end
+      	
+      	// Draw the schedule
+      	DisplaySchedule(gsListWho)
+      end
+      
+      
+     type : 458752
+   -
+     name : Initialization
+     procedure_id : 1898100581053609488
+     type_code : 14
+     code : |1+
+      // Summary: Initializes the application data
+      // Syntax:
+      // Initialization ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      Procédure Initialization()
+      
+      // Fills the bank holidays
+      for each BankHoliday
+      	BankHolidayAdd(NumToString(BankHoliday.MONTH,"02d") + NumToString(BankHoliday.DAY,"02d"))
+      end
+     type : 458752
+   -
+     name : _TestData
+     procedure_id : 1898100581053675024
+     type_code : 14
+     code : |1+
+      // Summary: Generates test data if necessary
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      Procédure _TestData()
+      
+      // If tasks are found, no action
+      if HNbRec(TASK) > 0 then
+      	return
+      end
+      
+      // Question
+      if YesNo(<§$0009§>) = No then
+      	// No test data
+      	return
+      end
+      
+      // Generating the data
+      dtToday is datetime
+      dtToday..Date = Today()
+      dtToday..Hour = 8
+      dtStart, dtEnd is datetime
+      
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 6
+      dtEnd = dtToday
+      dtEnd..Day += 16
+      _AddATask(dtStart,dtEnd,<§$0015§>,1,4,7,13,<§$0016§>+CR+ <§$0017§>,0)
+      
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 5
+      dtEnd = dtToday
+      dtEnd..Day += 11
+      _AddATask(dtStart,dtEnd,<§$0014§>,1,7,9,12,"Holiday in Guadeloupe",0)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 1
+      dtEnd = dtToday
+      dtEnd..Day += 6
+      _AddATask(dtStart,dtEnd,<§$0013§>,2,8,28,13,"",0)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 11
+      dtEnd = dtToday
+      dtEnd..Day += 19
+      _AddATask(dtStart,dtEnd,<§$0012§>,1,9,31,11,"Duty for the maintenance of servers.",0)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 16
+      dtEnd = dtToday
+      dtEnd..Day += 22
+      _AddATask(dtStart,dtEnd,<§$0011§>,2,10,40,3,"Preparing the demonstration for the very important customers. Don't forget to send the servers to Paris.",0)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 7
+      dtEnd = dtToday
+      dtEnd..Day += 19
+      _AddATask(dtStart,dtEnd,<§$0010§>,2,11,16,7,"Catching up with overtime.",0)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 11
+      dtEnd = dtToday
+      dtEnd..Day += 26
+      _AddATask(dtStart,dtEnd,<§$000f§>,1,12,31,8,"",0)
+      
+      // A task
+      dtStart = dtToday
+      dtEnd = dtToday
+      dtEnd..Day += 5
+      _AddATask(dtStart,dtEnd,<§$000e§>,1,14,28,7,"New versions to pack. French and English versions.",1)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 14
+      dtEnd = dtToday
+      dtEnd..Day += 21
+      _AddATask(dtStart,dtEnd,<§$000d§>,1,15,20,12,"Redesigning the examples supplied with the product so that they comply with the company requirements.",0)
+      
+      // A task
+      dtStart = dtToday
+      dtStart..Day += 14
+      dtEnd = dtToday
+      dtEnd..Day += 33
+      _AddATask(dtStart,dtEnd,<§$000c§>,2,19,16,12,"Yearly holiday.",0)
+      
+      
+      
+      
+      	// Adds a task into the file
+      	INTERNAL PROCEDURE _AddATask(dtStartOfTask is datetime, dtEndOfTask is datetime, sCaption is string, nTaskStatus is int, nPersonID is int, nTypeID is int,...
+      	nLocationID is int, sTaskContent is string, nWholeDay is int)
+      	
+      	HReset(TASK)
+      	TASK.STARTDATE = dtStartOfTask
+      	TASK.ENDDATE = dtEndOfTask
+      	TASK.STCTASK = sCaption
+      	TASK.TASKSTATUS = nTaskStatus
+      	TASK.PERSONID = nPersonID
+      	TASK.TYPEID = nTypeID
+      	TASK.LOCATIONID = nLocationID
+      	TASK.TASKCONTENT = sTaskContent
+      	TASK.WHOLEDAY = nWholeDay
+      	HAdd(TASK)
+      	end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : MAIN
+resources :
+ string_res :
+  identifier : 0x3b24de6373e857c1
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Schedule
+     index : 0
+   -
+     text :
+      en-GB : " from "
+     index : 1
+   -
+     text :
+      en-GB : "Schedule from "
+     index : 2
+   -
+     text :
+      en-GB : " to "
+     index : 3
+   -
+     text :
+      en-GB : "Reassign the task to "
+     index : 4
+   -
+     text :
+      en-GB : Exit schedule?
+     index : 5
+   -
+     text :
+      en-GB : The schedule was successfully exported
+     index : 6
+   -
+     text :
+      en-GB : The iCalendar file was successfully imported
+     index : 7
+   -
+     text :
+      en-GB : Week %1
+     index : 8
+   -
+     text :
+      en-GB : Do you want to create test data for the example?
+     index : 9
+   -
+     text :
+      en-GB : Product documentation
+     index : 10
+   -
+     text :
+      en-GB : "[\r\n\tEnd of documentation.\r\n\t\nPrepare for sending to publisher.\r\n]\r\n"
+     index : 11
+   -
+     text :
+      en-GB : Vacation
+     index : 12
+   -
+     text :
+      en-GB : Rewriting the examples
+     index : 13
+   -
+     text :
+      en-GB : Packing
+     index : 14
+   -
+     text :
+      en-GB : Training
+     index : 15
+   -
+     text :
+      en-GB : Extra holiday
+     index : 16
+   -
+     text :
+      en-GB : Demo of new version
+     index : 17
+   -
+     text :
+      en-GB : Duty
+     index : 18
+   -
+     text :
+      en-GB : Preparing package
+     index : 19
+   -
+     text :
+      en-GB : Holidays
+     index : 20
+   -
+     text :
+      en-GB : Product documentation
+     index : 21
+   -
+     text :
+      en-GB : End of documentation
+     index : 22
+   -
+     text :
+      en-GB : Prepare for sending to publisher.
+     index : 23
+   -
+     text :
+      en-GB : ",\"Holiday in Guadeloupe"
+     index : 24
+   -
+     text :
+      en-GB : "7,13,\"Duty for server maintenance"
+     index : 25
+   -
+     text :
+      en-GB : "3,\"Yearly holiday"
+     index : 26
+   -
+     text :
+      en-GB : "\"Yearly holiday.\""
+     index : 27
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Main.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,183 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : RPT_SCHEDULE
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : Schedule
+ subtype : 0
+report :
+ identifier : 0x56f2750c0101c403
+ internal_properties : CAAAAAgAAACxn6x5r23p9KYYLZ1T18DbiHX2aOovrawtPXuZSeNn8DeCkXPoC3QNiKYd4toGrbrML6gciEAxzY2wBmKJkfpKsRlM2dBVcOsqPlIyXQKa7ctugM0pfn1EGh3rtEzMadwemcafWcdIAOPvVYmWvm4xKHccTH1vTwFm5Ivki2qYJKQN6zf2UJjXy/ANTSxjO9TbaKsyRgzKN8NN5xFSFmblAGOq2xlnCZhV3h8b/LeuuW+3HBBj+PKjj/g1LpA/faWcQlMcsrSKP0/2YdDtXDYoJjIJDevBm5Edan8pM1QNY9XC8LaLF2l3aDYN2pfTrV5w7Lhni+6Z7S3zZBryJe5y7x7VF+MioAaq7lneUV7sPMzrm1jlNnXL5KHCtxDm9JRxuOmPYt9jJuxhYAQ8eHEmqzvHPnvkBQJ8qNV0dU4gjtBrSI2A+byDqAjcNwOHPCcCBXOVjpWliJIqqJfq0IbCFHcVw1U+xGhLbqWDY2oQ6HDZLx/RzXpoIXAVD4UexcTzDgTiaraX/cPr3IKAa91TLFRNGsUWYjw334p5LOLk/P6e+5VWZdFDPXwLvvrpF1J+LsOtYrqBJ+u7HRklgp46hyiojQbxXMK5fAG9OXutzyPJLp562fxRYSKe6U9dijw7ZlmDXsVkT9CA7wJaTOmLPyJRHK1riUdraTQqtPpsUGZtMLeo6BMOwAZq46/QQgkUSS1Eb3PXP+kbw/jUmhl3IpUi7745QFet4L9K7kHGYmmVzJZEUw==
+ languages :
+  - en-GB
+ blocks :
+  -
+    name : START_OF_DOCUMENT
+    identifier : 0x56f2750c0102c403
+    internal_properties : CAAAAAgAAACSDw5sP1K6AsIdhF6x6VNppZLx4kQD8MiDjF8lpQSE7CDXlN145xjXbH3ZLUdvZXfFURAdNPUoQlIMoU5Fjv0VoRTclWs8pLkrThNfpN/KJ6JFpm/9KzH4ALFI+HgAY6dvUq5xsSvFsw+XRTnnQXsbCizaW8QSDBJVCiQuAZdQVw9habP5LLTtTOoMLKPcAUern6wZvz78Lf+FAAvDL1biNIRa/eEE5IX2dBDvQOjFnyWbeZs7gtREpM6EjYVsi7ausxXEwjNBNj+X78bGKlZCS8vLTZeLu3o=
+    controls :
+     -
+       name : DOCTITLE
+       identifier : 0x56f2750c0103c403
+       internal_properties : CAAAAAgAAABLDd6UNYFPVsHLiTb59RK4mqYrA2MvaKTKMOBTOJ2z2z7Y5m28eZHaalKJqFo9o9JfjpldGE2UrjsufQSqZRTrE6fyd8vf+lajCC10i4olXiUaG22bDPjoyDrIDk2LZQK68qpZpklzf+ChE80DQ97GquAgVWvE7Sjl+6OEF73gWDjuuV44pSCyynKFsX2xUoc689DyH3G5pg8UFfMKCgUaqFb0CoMlTK+JyhnJ4zSPgsRVQlvbF9xgKOJU+vvOqiCZ3C9DYIjhEnS99C/9WfhRd8d63du6uL2cUcXUjhtp+e0I6fMVcP6UgxeyHHqv9TlJ6fcSoURA7e7Dsa3ZFn9n0DEyacAdITVUXV2j8JaK9+991K39u+k8myYO4e/NmpCJAwuLvYz/nsaXaVbeEiJItEMAgWx2WfYYAjQP5YjGekhl78BMxJmtF9Ctzc/Re68aQy/eUo+kRUeGt+w=
+       properties :
+        x : 14.3
+        y : 1.65
+        width : 25.196
+        height : 7.983
+       code_elements :
+        type_code : 29
+        p_codes : []
+     -
+       name : CONTROL58
+       identifier : 0x56f2750c0104c403
+       internal_properties : CAAAAAgAAAAyvy/DEdClpS5bYLkNdJeFGwPzvOo8dJeoyqSyM6j4IhhFlRDUgu6/bSq0rW/AY5pwL/2YoOEHCeN/gA9cMULTTA3nkZNPZler2gTWJwsIdYou7bpzpayfiR+P0nEMS5VMkQkKTN/oGqe6vSMTmD6xKezbNMUp5Gt2ompDthKgJm1+RdEf/uglV01qdkzXAaHG1AJqotw2GBXfaOxAckJfJC6cJwuUEQkvuM5IuhCpXi3/fQszHjzu31d3NgOrCmFiHc0hCtCwxqq+VhMALAq/spETU3GGmHf57W79S4+frXPThTZONiPCABcU9v1V3NN0ftpP35AMQxdybCR8frc3eCa8o4WzSODP5AIH6g0h2hAQIGpyRNrdLqsmEBDIqrUPeEBHsHTnBAJDrZfjjNVsjRDahyyEae6q/g6Ozgd9YBuGxlYl8fLJ5REuLs7ZZr+69ChZ2SxfnX1QRey/gCU2
+       properties :
+        x : 244.8
+        y : 1.65
+        width : 32.2
+        height : 5.72
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     width : 277.
+     height : 9.633
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : HEADER
+    identifier : 0x56f2750c0105c403
+    internal_properties : CAAAAAgAAACcTxWAfU9e+6oLGk3X4QJQES7weEDXDWQy/9Im650fap2xe6Uai/zjNqt1gcAiXRj7D5NRrqnKgaRs+WMNKCp3PhmaydKOKoxeO0TuvivkJk6joiFoCtjQuEy4aLPc+3BGcp15SGBULfV9w2sLwCz+6pDDGIzdzVVO/q0/GDHhILxrYkhM5nZvxbbAllvTNNaK4BacCTZAQJQ4yhdN7Ewcwd9bhOTEs1ZBwbJOBckWRR1b3cPyGvZGivZeSR38gCzxWWFE4QBH
+    properties :
+     y : 9.633
+     width : 277.
+     height : 10.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : BODY
+    identifier : 0x56f2750c0106c403
+    internal_properties : CAAAAAgAAAAW8fF6SicbxtjZULfnG/BVNpo0eDifm6jsPProNyaww9o+N3Rppvt/Da7QEUNoPKtnDsEouOLPsUi3/TAkAwmXOuFznZeeJ9C5A5yFB6b2di2vuA/oABqy9a+o1rW5fpVVAM+NGypL87Lu4oS/VLJfF6Sw82ogd5S0jB76lPJnWPj76/rnIbAifMTBnaxEaDpuEuklVbeCzBiQxA+fUfwiX8nDXa6zd1XjFdNrgLwJzKyvOArMyk2eXo0dnXg53Qr9BQ==
+    controls :
+     -
+       name : SCH_SCHEDULE
+       identifier : 0x56f2750c0107c403
+       internal_properties : CAAAAAgAAADx4XLdJOAcRm0RbG+1cXsRb6TbfG2nixU7a/GCKdj9JZbroEIGKIvNdlEtMu6CBN0JRf8OIiu27UoaMNXGtpMxHVA2CRayv3IN8hIjG50L6lMiZzGtJX7kyoBDKjsSqx2ckniy7DRL07JC36e1OuWhx1y0k0qRyzDP7HCLQEGX7ufFqAxsNK69Av3vg9gahIHacTAgORrfupGDT8tiKikysQPNw9l/aoj3L6pK7yV9rKb23LyKXE8VCYxwgGkKdiXfuRJ6zNpQ4GhY3vOR6NtYP8q910ntjLxT25oxCWFS1Iy/zsSB4tinXSet+gFQBpbqp1oI3D4SRUqonGAmD2ETMQF8w2eIjLa8sGCgK4mY2eJwfBxuZkqh82UCPoLk7sLqWbnCyNrthOhriRZix7q+b38+9HYncW7MCBLeNM3q97g7hNTP3Gka5GSIiMeeOMKy1k8sraIk8f6e5JTEqZQEOkKGqStJbkXSHRZG2BFHBuqkemsCPcmcRjfQ/O8Q3A0tfyTpkFWLhV4ET1TjfIM2F8nPmeQxpPeXokappREoOTyCbEfwSg+H8cd867BkCt3jJAMQ/pY/tTCbzdCr2go1Gfhw
+       properties :
+        width : 277.
+        height : 15.
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     y : 19.633
+     width : 277.
+     height : 15.
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        code : |1-
+         
+        type : 327692
+      -
+        type : 327697
+        enabled : false
+  -
+    name : PAGE_FOOTER
+    identifier : 0x56f2750c0108c403
+    internal_properties : CAAAAAgAAAByjTPsEnhEfqtTCC7kNtCtHBl3Fa3d5DXzJZrF4Q+kqsHtNNzw6HTMfImgTvWlQ8B/mXe3lJh3DcPKC8KuHeB26meclWFTIb6phdYBoaW7MAJ9rGWbo3AzCrgs7pFwVIArhG0M+iWInnY+ma2HyM2LNZzB4tyeJIvP4YPhDbJsenOlWvNoqjA7AQUBIvQcJcDk+aix1OiD7UhSSJAV1he5/xRonRUmfVxJar7xaCOd5EY2pP0FFmHfIrDW274wxMcbgHpQvdEJwMmo7vMZ32U=
+    controls :
+     -
+       name : NUMNBPAGES
+       identifier : 0x56f2750c0109c403
+       internal_properties : CAAAAAgAAACHU9fJYjupjDRRW/UZa5QPxRPow08jXO2nPMQatrh9ttDA+yqwtUvPEdDgbFpOZeZxJog2J3aS1+Jmzzsz9vS8Bv+H13yN41HWGNGWzuvJvozxaGyKAIDWMpsKaWbRu2JHb6AwEIyPjzo/gZ6KRo2Vmm/CRbIvscHVZwJApZltbifQntxefwGFiMwlmOMmutXm63nqhhdXTywyrpSLFq2f/djWRyh7LqQo8jlBDYJ7YsTFb2Pull/ZLDps2yFyalwCxI0gT0iWtg/vt7eipY5HDyisBGpw1LZ6RhgAV2ejS1Xw7/Mn21MG1pk7oDdYGnOGkrjmdJuBJQ+8nqeNlm5QB9Ay4YZdfaANvDb6+a5S8hZXwsrajllqhor+tCGHtqp0ogipd6eU1CWBfJox9z30Js/eNpoKkZ8TwS1ufdJH21I1z7eEvLWE6kD0NM8xBWOCOMnJuah4j1GnrBwxIS1s8XGlT2MizApmGinzg71vyVLy3GZYRa3/KAMDreN9C85XuVY6VgCL6V+qgvaVQOGYeo4=
+       properties :
+        x : 243.721
+        y : 0.7
+        width : 33.279
+        height : 5.72
+       code_elements :
+        type_code : 29
+        p_codes : []
+    properties :
+     y : 34.633
+     width : 277.
+     height : 6.68
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  type_code : 13
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE RPT_SCHEDULE(LOCAL gdStartDate is date, LOCAL gdEndDate is date)
+      
+      FOR EACH TASK 
+      	bOK is boolean = False
+      	
+      	// If the start date of the task is smaller than the start date, then the end date must be greater than the start date
+      	IF TASK.STARTDATE <= gdStartDate AND TASK.ENDDATE >= gdStartDate THEN
+      		bOK = True
+      	END
+      	
+      	// If the start date of the task is greater than the start date, then the start date of the task must be smaller than the end date
+      	IF TASK.STARTDATE >= gdStartDate AND TASK.STARTDATE <= gdEndDate THEN
+      		bOK = True
+      	END
+      	
+      	IF bOK THEN
+      		// Variable
+      		dStartDate is date = TASK.STARTDATE
+      		dEndDate   is date = TASK.ENDDATE
+      		
+      		IF TASK.STARTDATE < gdStartDate THEN
+      			dStartDate = gdStartDate
+      		END
+      		
+      		IF TASK.ENDDATE > gdEndDate THEN
+      			dEndDate = gdEndDate
+      		END
+      		
+      		HReadSeekFirst(PERSON,PERSONID,TASK.PERSONID)
+      		HReadSeekFirst(TYPE,TYPEID,TASK.TYPEID)
+      		
+      		SchedulerAddAppointment(SCH_SCHEDULE,PERSON.NAME,TASK.STCTASK,dStartDate,dEndDate,TYPE.STCTYPE)
+      	END	
+      END
+      
+      
+     type : 327680
+   -
+     code : |1-
+      
+     type : 327695
+   -
+     code : |1-
+      
+     type : 327696
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ETAT_SansNom1
+resources :
+ string_res :
+  identifier : 0x1ed8b87100d8a01a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

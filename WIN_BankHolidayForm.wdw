@@ -1,0 +1,265 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_BankHolidayForm
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_BankHolidayForm
+ identifier : 0x26f2751829b3f350
+ internal_properties : CAAAAAgAAAADmjcR75+W2ol/OaYzC5GbCTtvw2sl1sGfPznuAVrKnBUjsLOuNxy3qm0tX0eMxzxcps+W5GLDbhOFeWTPgNWoeuDLL/M9FLYm+fiGn3wy2TFzL8TXA+TpNaXTBtDyPZj2SM2RiTUc5ZTFu6+iWnWO4RNXoPgw2Bg+J783VvHpv1+mnRGJ6MvSom6GEW8MbkEzZeHsTIPl/+mrNnSUxAxVzjDeErD+jVRM7fO6jP5e664G7/IvrKaJuuUpPdQBRsYlBXrvx5uiausxT5sYs5ujimyg4aamxBsWjU/njTSbs0hcjq5qTbwrbcPMOCl3zeno7k32mC6U/gS9XeaKhGa0IuyNqlYCa0zGTXELKcNRV2dg3pZ2MDpEq14IdYVxk12F0VQKxeVdVJLZVcEmgKu5ClqCzRGGFUs99lUgDI7CnMcE5IFyKt1aHt9eGhO3F5HHcswQnbajSwvVJMi96Ep59I+tyjgJZpHNCRaGd3BMNYHmWeHzQyVB/4FTl9MaGivYsDXhTUChC8qOHIKolZ8FPgfc04wtFdOaOvZs0KOgDHT3/Avq63uOQJnJ+KkOXNT1gBq6jJcTQRWfgji6p2IzhB3VMo0a0yPC8XM3JKNAG0wcTDUY66InujKMwhXyW5sg0ErqA73kjk3bfsQDAcOZDOjUlQdaJeuZD4ePH079bCCnStvv7PO4WjMZ6YuCQ9IFQFxjEI8ns5ZKJ9sQ1yM5APHtSvvZcaaudkvLiaptcV4NWnrFlBfNH4YIO+rkCfQt5Uh1tN8=
+ properties :
+  x : 120
+  y : 50
+  width : 311
+  height : 110
+  widthClient : 309
+  heightClient : 78
+  widthMin : -4
+  heightMin : 0
+ controls :
+  -
+    name : BTN_VALIDATE
+    identifier : 0x26f2751829b4f350
+    internal_properties : CAAAAAgAAAC/Pi5lFVP4T9zmDuGoXgsLu/8STIn301AwwpF3+8bXwcYQtakROEoydztEoBowzLET769/j7ZYvHRn4wublU8N+QuE7H9sdv+boXnE9l0cYBLFhzAJscVEu3EzJ/yA22vv1A5BSzTI9+7hshKuL2LE4KFY3Kw/DGGjWRcJNvF5CaWUSifccqEXIh+oUD7/skenZ+31oeVlRHE8bWxi1JstbO53rzVG6PHDX7v6otPDQ1Ww7LOIZpXKffa2LDFqqHWTh6ssJ6XlXuCBJU1pli+oo/R3L5/kxyj3LbjzYz7HD75OTGcwlqBHpZN+bMXYC85I9EwgVTDUUDLkK1e/3F19W9b+abpoThrzAQK/45n2Fa7L8q3N5cYYeyWOGtNY96CiUj/I1oPnuV54ByxqW+gJw9GZwbhscRMVQQjUi5Bf6cDgXLGuRVWIuSBipv5DMlLwNJy/AIV6P/w50S9zEjp8kyPtP8V/20BWyxp3aMilL95vpElUAzxHtDituBPV5zRefVv2Er7A5b2X4IbGisd0CgWaQMJXTI1+/OSSj6qRDMycBaZtNHm6R4Lbu2KZcoSKBPX+V25e5/y/4rq2xUOANJ0GJo1yjm7vQfu+Gl1G2M6RWpGGwPxmYHfOIHqdcVCIBx9moiqaKnB5/znIif1Evqxg1hoEMywOZ06wR0C2A4XzmlcItJ82YxrolR7QrxQyHXIZRDdjWnZyrTt8fzT920Jyua5esn9owWY8UQlmLSp/0CTFCrBqFt7/aflwxwlLhDHIznJU/FU+cWs/TCRzk7w4uorQqSUCDfLxXwbmF4ZPJLuz3zkkY/wV552q3HeJLC6EopbitpimCD7RMmK/OwsAP786NTVOQt3k3cqGWlhlnDWUCIugID8q8PbS+Z063lrxt51Hb3QehHgsO0XyhFFecDrpTNVR5xLcVG/5nO3ULYCvYBeKjKXV6Bw=
+    properties :
+     x : 223
+     y : 6
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         IF EDT_Day=0 OR COMBO_Month<1 THEN
+         	Error(<§$0001§>)
+         	RETURN
+         END
+         
+         IF NOT DateValid("2000"+NumToString(COMBO_Month,<§$0002§>)+NumToString(EDT_Day,"02d")) THEN
+         	Error(<§$0003§>)
+         	ReturnToCapture(EDT_Day)
+         END
+         
+         // Retrieving data
+         ScreenToFile()	
+         	
+         // Saving 
+         SWITCH CallMode
+           CASE CREATION_MODE
+         	// Addition of the form
+         	HAdd(BankHoliday)
+           CASE MODIFICATION_MODE
+           	// Modification
+         	HModify(BankHoliday)		
+           OTHER CASE
+         	Error(<§$0004§>+CallMode)
+         	RETURN
+         END
+         
+         BankHolidayAdd(NumToString(BankHoliday.MONTH,"02d") + NumToString(BankHoliday.DAY,"02d"))
+         
+         MyWindow..ReturnedValue = True // Signals validated input
+         Close()			                 // Closes the window
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_Day
+    identifier : 0x26f2751829b5f350
+    internal_properties : CAAAAAgAAAAJ1RWdYmghaJHNEcHE6MRUH4DK9ODsobt9Uowdo/nxV63lq3IC30A/e2tafSyNDA0Pi2fcOI0kg9QU51mPPMge297XTqfVEW9pauFI480xYEcw6zFLuIURsRPUwyEjoUesocjxG7dcO1Ix3ACAYVhE6ka/90SOUghC/ixIbhBqZ3mJg09HaR/dFO+IvuFQQMqOga2a09/EFUtXlpR3mu7FnH2zaGiFqWv7AgfYFzmJFaSGMqDdTQtH9pfUZEzP46nBvzkyywBZ7uql3+98UpN+xtGo3Mm9w0pWseJrsqmgm4xDxZ9a7TLctNt9bYhJDfiDlgsHGAmdROur8Lvrm7dYHjop2/cOziLzut5Oyjlwi2kP8zUndItxhM9GdH+41qV4bO0MyYNhVOsBN1IShquCOSrd3FjE6D0IMfzIXRLF8GVm6+YD9Y5cQqnBkH09W8TpKoWO9D03jokjb4fiQtum46jjDMh6mx9JdCKOfRPXcr3XHINgziu2aR/3rw706tPK/eTU8n1hhpsFnpKxeYMSYBEmnpyPJfGbzo8lV88iglT2jInuJAkGMwyjvD4PfTxbnOa3YgOjY96BMKWRz3eUVf/ubojMz/mGxe8RAyMVy1ss9Evxz1nndMTO1ndqPJrdtshLkD4JkgMQIr46X/PlDwTK0NYDnsUcm8O1X61ZzzsdRc5ok0+U8NcFQ4hW4qJWZ7Xdg3CltgQjAx856UX60YgQtc5JFPXW7ZjycKC3Y5XjNGNaJJXVHLcdmzK/wREdqJEHuqDlESwDiOreZrlOgyuZkQzAMWfjT5BeMD13ZXLKChA0sg9MZzo1AQ2vouFEKl5ngYwDBUaEXD1WeihoPifIwLUscrxMMKh24O5E+XbtdPWrJ/82Nc/QMXIm6OPMfwlw+lkVncL6hGT9JHMcOKRzWRPOWYoSaVWX9CrbiDnkp7JLqgUL+R3BsKHL7uneI+UgcDmJmiXFYIlNm/2Q5dp/Y6oXPfr26hmGrukZKaJ/hWhWLM9DJ8copj/RLdIOgKKvAj+mJKw+onZ1qYHxjhw35HXqa792UEdLl33V/pK8vxa39DttEC9PU6juneJIBaEJ4ezaPQGgzjdsnPL/MTnAStVVe/WrWuOxauW9uFvbqpeS6hdx75l3Uo8a9d+QTA74Z/3iTFasbKrz+NIs8BNtWxBIu0z+qr/yF2DIKkHcm932/SeIrFe6g9ytxyCDDIila9qyDDXc4dTZO6+xuNQSSeeTAuaVtqNgE4vsGH0G/fmTyn/5eoQ+JyOgy+v7vSqBxJn+V2L+N4BCj0UMt1qzmIpGQjD9d5dRs+m0a5A12tw0RV80mugDMg70Mh0YelMb18YKH4T+YiT3AfK9IeQpyXCLlbdk3jcj0b2ifTUxJa5l32i9MNWkNCJAvfoqfWzbQaTw0Bx4ifyMPv+mCaoqRKTUBCcQLZ7Wcg==
+    properties :
+     x : 6
+     y : 6
+     width : 83
+     height : 32
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : COMBO_Month
+    identifier : 0x26f2751829b6f350
+    internal_properties : CAAAAAgAAACX0W4IQ7BVi2VTqoZmk5Ae/YCPWEf8vSZxqQbJp5VS59xs5+YBQHOS7beYs+7GM3lzEGwMnZLY/1YQUZ9pfPgoGtgrwvkJSUc7gKwe6jHo5Dh7Be6awhL5UDiEPhPMdK5X7xEXqt+uX5VjXztvgPqP10LvkdZSOKXllS18d6i8TmrmHUV/eYI0Mown9gcyJW+jwxvypSacCengoKOKSCoHpk8MHKmby05NrUDfu5wd3WpZjNh3JRCyPs1ooZSBneXiV2asHFS6XctbwHp6Vb6l0RAF0Uv6LVwXDRaV699ymtiGsrdv7hnERbPX1v8ciRCdENj41c9q4cz8wTpBN0vSLSj+zxQrUy2FoIMKTheuyxD0hadD9ONTArv/8EwsjlUkX4CYIXuW/kMdZBoZ/Ja0ThHXQXbk++6xJyeD+y+qftrWF3AXY4BLmAcuGat0Z9vXeID+HxCl3FD99IXbRMTnou8TdROdX+ATeVBenNgLNjlFp8O7KymJD0MrI57arweukAabvBvxc2LMuPrv1gMNK1HsoUwN9F/zhskWxuNTDj8hF1Bik3ehJQV8xEc306NX9bZAxccQlf7G7w35NrN3vqr4D/ndzGLRuj7qiq7YZKHAzKxWFdpMc54W40hIdOQlNyHUqABugI7u5+DXs0j3VGGXw80/3PEVyoPDhQfBdhkbABYregHl27GCRo2tkFm0UK5IUqBCxkuJ3II4iTYN7bHxXtg5Io3vNNiLkiQ2qIg/hDlId7JnRZFWt1WXWo59pV4wiZ+8gq/VpRKs+HhuecH4s+oSfRNQHCJwKubH/zCA+i19ppQNxXQrLcBFpIfwv3KawGHFsuUNEgnby3nrztrawDn4aurqw5owS6w2AO2f2TlxQpIJeCnyeb2sR+6Lyh4+DDe7UQE51vNEKptCoAVUSGlnNiL2lMA2F7QR+NCHElYjZoXZfkOJBIAc9FBNKu7a6JM0le99AH5AgLhulKuKBB5RNJa3LHtbBBJLQkQssRvgvHjbUno2seEFekc0IEFTfjN3lc9k/9/3k3A+t+LQLjeSxeOcO/GciMicI9+P2SgNuOxZmTFt2nW8xeWnIDx06BF40FnKH7JXzuy61Yv+/oMxaJNYJVKbJuyMPjv/0EprNRNJhoOquGGXhKpLtWNnHgEBfuPm7bdSzPSemVdRHlWBJx8R5xJ5BV3kM/6uhh7IqhrYL+vvwHIZ+nuUW5zp+O+JfnbbaDyPM6vvw6sL8kPny/p4ElVH7lJ3tLbdt+/S0TtXvVWt+ebgWYeFrpkSW7CgvKBm+0FSi5UtOQYRxsQUPVqtT4B0YJd5Fij+YydiFWrK3WxpKQm4wjhS+AAEOqVOBfOB6vshR/bPtQF6fGoReMXIN+b8iatgsz9/u+P7EXMLZCYb305WhOXqbTSU9ds/diJJE1j4YI09NRnaoASavQ0YiiZzm5uzvqtyOS4FKwzmJ0FAnNhIT9DTbziO4mqkwQL51Du+Eh9746+bVwHug5IAetNKXsHH4B4RZ9NzQQ+QKXqCCMs2TiGWM4SzhDYQfC3MwY/y61BvTOlpl/nExGJW+PRanV3V0w/s+vxL1ubgxAdq87tq6i0KSjB/nJMOcjfTrs9dlD0siv6idy6o750rtmVasYGrGgZo+Jo4oZVdQ6Si4WubBiLXuPWF+w5TQPQUGLzHVW01+ajvi3HnmVNqUZw7Mm4tWoHbvYxt3oC0In8LCy6Vzzxpsx2kGeOwN1g2BbJVExMxoSCJpEPoM4IGv8EWbk67gZmemp13yFsXsd07E0CfZ0tz2aIGEXCRB5oJBp0sbDtSqo/b5//R9f2aGmyWf83E3OLbX1qsHHgb5XcVTq7T+ayo1sglE/y5PdW8CD4E5srbyKcmZvrK4vVD6ktQ
+    properties :
+     x : 95
+     y : 6
+     width : 122
+     height : 32
+    dropdown :
+     internal_properties : CAAAAAgAAABohbMgFI2ycKmxX9BBY1i5MdOYIMzhQhPtOMxaibb3VNf35EQJSXp+aEUt/UvHpkO0McGBCPoEDwqfxN3hzyUJK9FhOtUFtAWZC3jdTJlYYTZNHmxBg3ru81dpy3TekpMXTaz9MyH6XNKUXVuiJgkVeGjezVUxj24T84KVv7vjcQwcAK0LVkReTc1Ct/YpFT+3AGeuCHRqmDNzCcROg2+GTfUbIbMiwIDPaFyHEZZ+hFdCScL7tMBuyGCCMdQIZ6jzOx05BGnS0LRsooT0nx7WztYJEk03rq+F1/P/6QqOIAQp5wzJlofaEHle4BJiwYHhwBhNRSmfuAIiAS39WBZUIhGwJexENN255TDcqpPK8bid2CUfCAm5Tx9m4/BlentxmDTtoQ0eZtAOyu1Ydlm388BMoE7RgOsBqQX71nggyp3t6amyH5FWywhC+cnTQVdhK/OEL1J/+oNEXZPB/i9hwifgQ6LHyGLDQFsR+p/Ij4LPqR3IAZxVNfI7j2Zovw0yziXQ6VVvgpc1k6yodesXfkLepejzfvHrwr7Xsuy5Oz9M5kkwP7wdTAESLH9UZSlrrNyx/eyy2VpohxiDOsAqyjLsCC0xMbR2S3jx+9qjiWM3nxK9lb/wmqfOJ688GchEAQyR+2qaT/33CY1sWXhAH5eBsbs4tPjXKlvTHNW37K8gRvCSzXd3UBT0f1CNycVXQRsVHMVn/1IOv8yLwJIe8F09ZlK+bzK3lCVHjAFHuA6JGybbmB3EuKSBI7CcB035zCsq7ruhOqpZ4Q==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : BTN_CANCEL
+    identifier : 0x26f2751829b7f350
+    internal_properties : CAAAAAgAAAAVzCECXePofLhABd7z2nsUCYVvMxEFj69wkh6XC0aDqf0NJZu9ks97i4reSpaFnNqItBcIeTlzns+yTRBdCPtzUWF+bgb+KIPRohJ60csA49cvUa3b0ECtGHj78/PoDb9eXrrYNqTbN9G/vnjwKqupPJD8KIuZiqcxHzoB8kMAGMJleVIboLaC+rPqsfvMivxubMbU9HpMY+J6c3i2b/iYnen0bJXhgT5KKoE1Cf91B+aqz92Dx26CcNMV6ClASj9KwwdrjIjSPXn3E3KcpqkMuAChCqdCmtVrgElc7KX+URGRGOvKS/uBJbl7xN06sLa4ha9wF8V3UF2Si6TVFk1TWohh6xKmqQQ9Ij0sobxyCf2R5+9OLSWxRu1oglWJYxXN5aMq/rTMOXEglN1XfuN108jFejpgTaAgV1PzcNXOogpF6EhH9OdgJJqImpGaXWI2aQghzSKqW5aiNUQuHnJILXyQr6GooHgNgw1L8jkVtf4Sp7yts5PaRYYUWeCfYw8PAdJJH5c7Z4DXpELcXVKrbFCK7zg1qmmdQvWsjQFN+0+iqe3LYE45LEPUYFt2u6P1VGjvc+K1qNkg55xrmuAZPtJ4crMGGCDWSDeKEZ6JFw/qXHXn7M6PAj72QYwV2VExG0+B+ug8oV/ftfn63ckXxZFD2x6MalvBjssRaHjTEcr7U6QbGRdNdmECPtHmqmJO0JfiSGcxql8TjRoAlpSpanDvN3Ac72RwQlhjwmmmnqgoVquA5BI1XDmuBdUPIzQp8VLe6hX+VmPoX4ZZve+rB5RWeFLqHBngjmITGJ0MZYGtn/1lF15I1s9OaeIcF0h6qLbJ/8Q07xPqjs+wSHv7YRypfckulYf6Hpb6gT0MONO1TRqhOZxphMGgSBub+ZpoPuLRqEu5p3ZrxjHnzGaD/7A++YElXFfKCmgXesY5ehCzaB9dTkKAfzIB1mCt/viN0sVd8m7gBisWEg==
+    properties :
+     x : 223
+     y : 42
+     width : 80
+     height : 30
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Closes the window
+         MyWindow..ReturnedValue = False // Signals that the input is canceled
+         Close()							 // Closes the window
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_DayCaption
+    identifier : 0x26f2751829b8f350
+    internal_properties : CAAAAAgAAADUuFdzv1XOXQMSKXq+SmcxsreN7EimRG38ZWnZuWCxxiJRUVctulFeYo0GqUSkQkZ3FU51mR7TGfwNGAqklWkTz7i3KxR00FyLqZypPrLtXqbjsm6Ty6erDVV6fIZZdr6Adrsp1mOeXEoQKhfD7oik52uNojMFaUTtNu0mTOtwP+mP/Qo7FLXVZj34/4lJA5THp6uq6rb7VkJY6COR2AvztRXScQrOmRafQg+ntFjVvQbBmS3ozCnfq51fZpJJ+2qc1nngmGG9sxtITHXFbNb31E+Lzw0xjnPU9XaiPos4t3K/UCyjtNuzGANBKT4h6WuPT06WjTPlbGweajk4y7Z63FfkHxfdAIECC+KyDfHoWRjCF0V5M+KvDATKFzPzVIiwZqxboh45vwUROPPzGbwDivu0l7XLw1Osbvq3zZ2Xk4y+4XEtYtcLNv4ixiBpxhbg0wWS+i7W9mPb2W1cxAAie8UsERvslszDRFHXyyt7HrL93zXlkpHcuADwgtO9SwFxsKcGNZxpwjP3UGcILSAGGvPRT9yDboR8Maj6EHLYZCQ791dnT4b5PyBnUdCNOlmFR3WLSg7jbfhHP7mSAuPZ+SRREU1VkkNvPdkYjsYeFxuAxqsvUxHNLoS3ZjKWE2ztFqQ2jPMiZiNEN+AUYHTrpTj4LHe/querHPGrgdzSapm/XHt1yXrJZUlKKXvO7amUms4nX05zDgX5a/3wEOgpazXKjxtrwzTIcMEj7AOEJKP/+v+d+mBYBhMxPl3D66DMQFPzOXx6q2n4X/Sxa/L1wL2Ywcazh1zPbGofV5ux1EakJMxM3AqZIG9Si/pUL5vU7V5wfKiwhOqcSr6rT5VnliuvsfyZp/OTTWlWC5mqIhyZTzvSPp3HSwFtlA1P+PKCwh9Ic8C46ktl6VdAJYaqRCkiCn5kO1MFsY6sYExCRpFQqZULUm50zFM1HFl1Gg4loe5J0Veq4EPktv0SESQh2zTOnKVcKA3PzoRaFnhgChojcGSvF1NrpZul0dvQZPdtD9Lpb6z8b9xuh+wovh/9nK5ypdcBEdtlUuR1pT7oRcZ8t9JCfuxDBXBS1l3ELc/Vi7qSMOJsxgm1nZ7lnYVZVRfdu63tNtjooLh8WEsIkyTsB4kCQuShtCjnKZmz7YKdV05fxDdkceIqEj6CNpcwhTrRKpapKDltWBJlKWTegki+S3/bdJvp+0ISoiP3oIW6Mmsug8P0/ZgG6sxiZmZdjG6vr6KQQBHAS9CAd9iB4aNsghMnocO4tk2xVBM6dUNklTVyBMnlCLHruJNibleMHv23LsFqf2XmXKaxW8OoO0NBvrK45+Wl/odj9vWW94ZUJnNVQAx39Ia4WnqIuZ/oAZt7jeMgIG8KlIwdC4G+UNJ05qN/Isyr8XEXWfZ3Zmuwq0c=
+    properties :
+     x : 6
+     y : 42
+     width : 211
+     height : 32
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2885f0c27a34a18a
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADNsFvxizsdcrTCGovcUcovsO/Ok9CrxorGA4YzZhmg/wYJ0Qw0dvL050MUWAZry49dmqZWiEZO7rza5n+VGB8/mKtjVU677FCllQF/cU9VXvcgu9eDVfJZWQfQ9dCHJjU=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAwECQuRFLuJGkztKROE9qSAkTxnAHEN9fSEs9MO2LcCtli+7olW0NgdTT4EjUKVeKDT4tIKgI3eOgXNcpBDtfAbo4nJBD/D+v6Pl2USM7hzqEA0h2abMO/w1JT67cheg4GW5wmfXrjlQUqWNv30CGuG4en35L19O04sUfCAZgAf77keZXJUAgmxdO43RjNbQndm5dP+C7OECj08yWN6k4tUtHKGgwUhiESrqarcqt4zGbg9ogE31P2QSjY1PK8+TY13MnJPRaciN0a5jGGnalTZiu2AecOm3whLX/rYHY5bl7vm+W3VqLABm2iju462cyQ9/SW9buOaxJ/vwHnNf+VlFNmyz+qc0Okwy+apY0WARo5MQ==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      
+      PROCEDURE WIN_BankHolidayForm(CallMode=CREATION_MODE)
+      
+      // Return by default
+      MyWindow..ReturnedValue = False
+      
+      SWITCH CallMode
+        CASE CREATION_MODE
+      	Reset()           		// Clears the controls
+      	HReset(BankHoliday)		    // Clear the items
+        CASE MODIFICATION_MODE
+      	FileToScreen()
+        OTHER CASE
+      	Error(<§$0000§>+CallMode)
+      	Close
+      END
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b24cfe35a2bb0e9
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : "Invalid window call mode: "
+     index : 0
+   -
+     text :
+      en-GB : Enter the day and the month!
+     index : 1
+   -
+     text :
+      en-GB : 02d
+     index : 2
+   -
+     text :
+      en-GB : Bad date!
+     index : 3
+   -
+     text :
+      en-GB : "Mode incorrect: "
+     index : 4
+   -
+     text :
+      en-GB : Duplicate error on unique key
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
